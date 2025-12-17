@@ -6,15 +6,15 @@ nav_order: 1
 
 ### 1. Objective
 
-The objective of this policy is to define the requirements for managing user identities and access rights to **[Company Name]**'s information systems and data throughout the complete user lifecycle. This policy ensures that access is granted based on the principles of least privilege and separation of duties, while implementing automated access management processes that minimize administrative overhead and enhance security effectiveness. This policy focuses on standard user access management, while privileged access is addressed in the Privileged Access Management Policy (AC-POL-004) and remote access is covered in the Remote Work Policy (AC-POL-003).
+The objective of this policy is to define the requirements for managing user identities and access rights to **ASM One Inc.**'s information systems and data throughout the complete user lifecycle. This policy ensures that access is granted based on the principles of least privilege and separation of duties, while implementing automated access management processes that minimize administrative overhead and enhance security effectiveness. This policy focuses on standard user access management, while privileged access is addressed in the Privileged Access Management Policy (AC-POL-004) and remote access is covered in the Remote Work Policy (AC-POL-003).
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, third-party contractors, and vendors who require access to company information assets. This includes standard user access to applications, file shares, collaboration tools, and business systems. This policy applies to all physical and virtual locations where company information assets are accessed, stored, or processed, including corporate offices and approved remote work locations. This policy does not cover privileged administrative access (see AC-POL-004) or remote work security requirements (see AC-POL-003).
+This policy applies to all **ASM One Inc.** workforce members, third-party contractors, and vendors who require access to company information assets. This includes standard user access to applications, file shares, collaboration tools, and business systems. This policy applies to all physical and virtual locations where company information assets are accessed, stored, or processed, including corporate offices and approved remote work locations. This policy does not cover privileged administrative access (see AC-POL-004) or remote work security requirements (see AC-POL-003).
 
 ### 3. Policy
 
-Access to all **[Company Name]** information assets shall be managed through a formal, documented process that implements automated access management and exception-based reviews to ensure appropriate access while minimizing administrative overhead.
+Access to all **ASM One Inc.** information assets shall be managed through a formal, documented process that implements automated access management and exception-based reviews to ensure appropriate access while minimizing administrative overhead.
 
 #### 3.1 Principle of Least Privilege
 
@@ -43,7 +43,7 @@ Access reviews for standard (non-privileged) access shall be conducted at least 
 
 ##### 3.3.1 Automated Monitoring Requirements
 
-Identity and access management systems shall be configured to automatically detect and alert on access anomalies. These monitoring systems shall identify dormant accounts with no login activity for **[Duration, e.g., 90 days]**, privilege escalation events, unusual access patterns, and accounts without recent manager validation.
+Identity and access management systems shall be configured to automatically detect and alert on access anomalies. These monitoring systems shall identify dormant accounts with no login activity for **90 days**, privilege escalation events, unusual access patterns, and accounts without recent manager validation.
 
 ##### 3.3.2 Role-Based Access Control Implementation
 
@@ -69,7 +69,7 @@ All system access shall be authenticated through a combination of a unique user 
 
 ##### 3.4.3 Session Management
 
-Systems shall be configured to automatically terminate user sessions after a defined period of inactivity, not to exceed **[Duration, e.g., 15 minutes]** for systems containing ePHI. Session timeouts shall be enforced at both the application and network levels.
+Systems shall be configured to automatically terminate user sessions after a defined period of inactivity, not to exceed **15 minutes** for systems containing ePHI. Session timeouts shall be enforced at both the application and network levels.
 
 ##### 3.4.4 Network Access Controls
 
@@ -81,11 +81,11 @@ Accounts with elevated administrative privileges are subject to enhanced control
 
 #### 3.6 Third-Party Access
 
-Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **[Company Name]** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
+Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **ASM One Inc.** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
 
 ##### 3.6.1 Third-Party Security Review
 
-Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **[Company Name]** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
+Prior to granting any access, all third parties shall undergo a formal security and compliance review, as defined in the Vendor Management Policy. Any third party that will access, store, or process ePHI on behalf of **ASM One Inc.** shall have a signed Business Associate Agreement (BAA) in place before access is provisioned.
 
 ##### 3.6.2 Third-Party Access Restrictions
 

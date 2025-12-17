@@ -5,15 +5,15 @@ nav_order: 5
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive secure coding standards and testing requirements for all software development activities at **[Company Name]**. This policy ensures that security controls are integrated into coding practices and testing processes to prevent vulnerabilities, protect electronic Protected Health Information (ePHI), and maintain compliance with HIPAA, HITECH, and SOC 2 requirements. By implementing standardized secure coding practices and rigorous security testing, **[Company Name]** minimizes security risks and ensures applications are resilient against common attack vectors.
+The objective of this policy is to establish comprehensive secure coding standards and testing requirements for all software development activities at **ASM One Inc.**. This policy ensures that security controls are integrated into coding practices and testing processes to prevent vulnerabilities, protect electronic Protected Health Information (ePHI), and maintain compliance with HIPAA, HITECH, and SOC 2 requirements. By implementing standardized secure coding practices and rigorous security testing, **ASM One Inc.** minimizes security risks and ensures applications are resilient against common attack vectors.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members involved in software development and testing activities, including developers, architects, testers, security engineers, and quality assurance team members. It encompasses all software development projects including new applications, system modifications, third-party integrations, mobile applications, web applications, APIs, and infrastructure-as-code. This policy covers secure coding practices for all programming languages and frameworks used by **[Company Name]**, as well as all security testing methodologies including static analysis, dynamic testing, and penetration testing across all development environments.
+This policy applies to all **ASM One Inc.** workforce members involved in software development and testing activities, including developers, architects, testers, security engineers, and quality assurance team members. It encompasses all software development projects including new applications, system modifications, third-party integrations, mobile applications, web applications, APIs, and infrastructure-as-code. This policy covers secure coding practices for all programming languages and frameworks used by **ASM One Inc.**, as well as all security testing methodologies including static analysis, dynamic testing, and penetration testing across all development environments.
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive secure coding standards and rigorous security testing processes to ensure that all applications and systems are developed with appropriate security safeguards and thoroughly validated against security vulnerabilities.
+**ASM One Inc.** shall implement comprehensive secure coding standards and rigorous security testing processes to ensure that all applications and systems are developed with appropriate security safeguards and thoroughly validated against security vulnerabilities.
 
 #### 3.1 Secure Coding Standards
 
@@ -106,9 +106,9 @@ All code shall undergo thorough review processes to identify and remediate secur
 - **Vulnerability Management:**
     - All identified vulnerabilities shall be tracked and prioritized based on risk.
     - Remediation of vulnerabilities shall adhere to the following timelines:
-  - Critical vulnerabilities: within **[Timeframe, e.g., 7 days]**
-  - High vulnerabilities: within **[Timeframe, e.g., 30 days]**
-  - Medium vulnerabilities: within **[Timeframe, e.g., 90 days]**
+  - Critical vulnerabilities: within **7 days**
+  - High vulnerabilities: within **30 days**
+  - Medium vulnerabilities: within **90 days**
     - Any vulnerability that cannot be remediated within the defined timeframe shall require a formal risk acceptance document to be signed by the Information Owner and the Security Officer.
     - Vulnerability remediation shall be verified through re-testing.
 

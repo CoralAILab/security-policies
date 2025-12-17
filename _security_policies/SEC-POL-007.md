@@ -6,15 +6,15 @@ nav_order: 7
 
 ### 1. Objective
 
-The objective of this policy is to establish the comprehensive governance framework and coordination requirements for Artificial Intelligence (AI) and Machine Learning (ML) technologies at **[Company Name]**. This policy provides the overarching framework for AI governance and coordinates the specialized requirements defined in SEC-POL-012 (AI Development and Deployment Security Policy) and SEC-POL-013 (AI Ethics and Compliance Policy). This framework ensures that AI tools and systems are governed holistically with appropriate security, ethical, and compliance controls while enabling innovation and productivity improvements through responsible AI adoption that protects confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI).
+The objective of this policy is to establish the comprehensive governance framework and coordination requirements for Artificial Intelligence (AI) and Machine Learning (ML) technologies at **ASM One Inc.**. This policy provides the overarching framework for AI governance and coordinates the specialized requirements defined in SEC-POL-012 (AI Development and Deployment Security Policy) and SEC-POL-013 (AI Ethics and Compliance Policy). This framework ensures that AI tools and systems are governed holistically with appropriate security, ethical, and compliance controls while enabling innovation and productivity improvements through responsible AI adoption that protects confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI).
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates who use, develop, deploy, govern, or manage AI and ML technologies on behalf of the organization. It encompasses all AI applications including generative AI tools, machine learning models, automated decision-making systems, and AI-powered business applications. This policy provides the governance framework for both internally developed AI systems and third-party AI services, regardless of deployment model, and coordinates the technical security requirements (SEC-POL-012) with ethics and compliance requirements (SEC-POL-013) across all use cases.
+This policy applies to all **ASM One Inc.** workforce members, contractors, third parties, and business associates who use, develop, deploy, govern, or manage AI and ML technologies on behalf of the organization. It encompasses all AI applications including generative AI tools, machine learning models, automated decision-making systems, and AI-powered business applications. This policy provides the governance framework for both internally developed AI systems and third-party AI services, regardless of deployment model, and coordinates the technical security requirements (SEC-POL-012) with ethics and compliance requirements (SEC-POL-013) across all use cases.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive governance and security controls for AI technologies to ensure responsible, ethical, and compliant use while protecting sensitive information and maintaining stakeholder trust.
+- **ASM One Inc.** shall implement comprehensive governance and security controls for AI technologies to ensure responsible, ethical, and compliant use while protecting sensitive information and maintaining stakeholder trust.
 
 #### 3.1 AI Governance Framework
 

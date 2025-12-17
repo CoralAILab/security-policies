@@ -6,15 +6,15 @@ nav_order: 4
 
 ### 1. Objective
 
-The objective of this policy is to define the security requirements and procedures that govern the lifecycle of all **[Company Name]** workforce members. This policy ensures that individuals with access to sensitive company information, including electronic Protected Health Information (ePHI), are trustworthy, properly trained, and managed in a way that minimizes insider risk and upholds the company's commitment to security and compliance.
+The objective of this policy is to define the security requirements and procedures that govern the lifecycle of all **ASM One Inc.** workforce members. This policy ensures that individuals with access to sensitive company information, including electronic Protected Health Information (ePHI), are trustworthy, properly trained, and managed in a way that minimizes insider risk and upholds the company's commitment to security and compliance.
 
 ### 2. Scope
 
-This policy applies to all prospective, current, and former workforce members of **[Company Name]**, including full-time and part-time employees, contractors, and temporary staff. It covers all stages of the employment lifecycle, from pre-employment screening through termination and separation.
+This policy applies to all prospective, current, and former workforce members of **ASM One Inc.**, including full-time and part-time employees, contractors, and temporary staff. It covers all stages of the employment lifecycle, from pre-employment screening through termination and separation.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement and maintain procedures to ensure that the workforce is managed securely and in accordance with all applicable legal and regulatory requirements.
+- **ASM One Inc.** shall implement and maintain procedures to ensure that the workforce is managed securely and in accordance with all applicable legal and regulatory requirements.
 
 #### 3.1 Screening and Background Checks
 
@@ -29,7 +29,7 @@ To ensure a trusted workforce, all candidates for employment or engagement shall
 Upon joining the company, all new workforce members must complete a formal onboarding process to ensure they understand their security responsibilities.
 
 - **Confidentiality Agreements:** All new workforce members must sign a Confidentiality and Non-Disclosure Agreement as a condition of their employment or engagement.
-- **Security Awareness Training:** New workforce members must complete the mandatory security and privacy awareness training within **[Number, e.g., 30]** days of their start date.
+- **Security Awareness Training:** New workforce members must complete the mandatory security and privacy awareness training within **30** days of their start date.
 - **Access Provisioning:** Access to systems and data will be provisioned in accordance with the Access Control Policy (SEC-POL-001), based on the principle of least privilege.
 
 #### 3.3 Termination and Separation
@@ -43,7 +43,7 @@ A formal process must be followed to ensure a secure and orderly separation when
 
 #### 3.4 Sanction Policy
 
-Failure to comply with **[Company Name]**'s information security policies may result in disciplinary action.
+Failure to comply with **ASM One Inc.**'s information security policies may result in disciplinary action.
 
 - **Framework:** A formal sanction policy shall be maintained to address violations of the ISMS policies. This framework ensures that disciplinary actions are fair, consistent, and commensurate with the severity of the violation.
 - **Disciplinary Actions:** Sanctions may range from verbal or written warnings and mandatory retraining to suspension, termination of employment, and, where applicable, civil or criminal legal action.

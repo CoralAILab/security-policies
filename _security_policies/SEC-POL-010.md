@@ -6,15 +6,15 @@ nav_order: 10
 
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive audit logging requirements for authentication, authorization, and network security events within **[Company Name]**'s information systems. This policy ensures that user access activities, network communications, and system security events are comprehensively captured, monitored, and analyzed to support incident detection, forensic analysis, and regulatory compliance. This policy focuses specifically on identity management, network security, and system-level security events while coordinating with data access logging requirements defined in SEC-POL-011.
+The objective of this policy is to establish comprehensive audit logging requirements for authentication, authorization, and network security events within **ASM One Inc.**'s information systems. This policy ensures that user access activities, network communications, and system security events are comprehensively captured, monitored, and analyzed to support incident detection, forensic analysis, and regulatory compliance. This policy focuses specifically on identity management, network security, and system-level security events while coordinating with data access logging requirements defined in SEC-POL-011.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** authentication systems, identity management platforms, network devices, security appliances, and infrastructure components that manage user access or network communications. This includes all identity providers, authentication services, network firewalls, VPN systems, intrusion detection systems, and security tools across production, staging, development, and administrative environments. All workforce members, contractors, and third parties with system access are subject to the authentication and network logging requirements defined in this policy.
+This policy applies to all **ASM One Inc.** authentication systems, identity management platforms, network devices, security appliances, and infrastructure components that manage user access or network communications. This includes all identity providers, authentication services, network firewalls, VPN systems, intrusion detection systems, and security tools across production, staging, development, and administrative environments. All workforce members, contractors, and third parties with system access are subject to the authentication and network logging requirements defined in this policy.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive audit logging and monitoring capabilities for all authentication, authorization, and network security events to provide early detection of unauthorized access attempts, support forensic analysis, and maintain compliance with regulatory requirements as defined in SEC-POL-009.
+- **ASM One Inc.** shall implement comprehensive audit logging and monitoring capabilities for all authentication, authorization, and network security events to provide early detection of unauthorized access attempts, support forensic analysis, and maintain compliance with regulatory requirements as defined in SEC-POL-009.
 
 #### 3.1 Authentication and Authorization Logging
 

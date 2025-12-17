@@ -5,19 +5,19 @@ nav_order: 2
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive business continuity management framework for **[Company Name]** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **[Company Name]** maintains essential service delivery to patients and customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
+The objective of this policy is to establish a comprehensive business continuity management framework for **ASM One Inc.** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **ASM One Inc.** maintains essential service delivery to patients and customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, business units, facilities, business processes, and third-party service providers that support critical business operations. It encompasses business continuity planning and response for all types of disruptions including natural disasters, pandemics, civil emergencies, supply chain disruptions, workforce shortages, and other events that could impact business operations. This policy covers business process continuity, stakeholder management, emergency communications, alternative work arrangements, and vendor continuity management, while technical system recovery is addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
+This policy applies to all **ASM One Inc.** workforce members, business units, facilities, business processes, and third-party service providers that support critical business operations. It encompasses business continuity planning and response for all types of disruptions including natural disasters, pandemics, civil emergencies, supply chain disruptions, workforce shortages, and other events that could impact business operations. This policy covers business process continuity, stakeholder management, emergency communications, alternative work arrangements, and vendor continuity management, while technical system recovery is addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
 
 ### 3. Policy
 
-**[Company Name]** shall maintain comprehensive business continuity management capabilities that enable the organization to continue critical business operations during disruptions through alternative procedures, emergency response coordination, and stakeholder management, with technical system recovery addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
+**ASM One Inc.** shall maintain comprehensive business continuity management capabilities that enable the organization to continue critical business operations during disruptions through alternative procedures, emergency response coordination, and stakeholder management, with technical system recovery addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
 
 #### 3.1 Business Continuity Framework
 
-- **[Company Name]** shall implement a structured approach to business continuity management based on industry best practices and regulatory requirements.
+- **ASM One Inc.** shall implement a structured approach to business continuity management based on industry best practices and regulatory requirements.
 
 ##### 3.1.1 Business Continuity Principles
 
@@ -63,17 +63,17 @@ The Business Continuity Manager, in coordination with Business Unit Leaders, sha
 
 - **Recovery Time Objectives (RTO):**
     - Maximum acceptable downtime for each critical business function
-    - Immediate: **[Duration, e.g., 1 hour]** maximum downtime
-    - Urgent: **[Duration, e.g., 4 hours]** maximum downtime  
-    - Important: **[Duration, e.g., 24 hours]** maximum downtime
-    - Deferrable: **[Duration, e.g., 72 hours]** maximum downtime
+    - Immediate: **1 hour** maximum downtime
+    - Urgent: **4 hours** maximum downtime  
+    - Important: **24 hours** maximum downtime
+    - Deferrable: **72 hours** maximum downtime
 
 - **Recovery Point Objectives (RPO):**
     - Maximum acceptable data loss for each critical system
-    - Critical ePHI systems: **[Duration, e.g., 15 minutes]** maximum data loss
-    - Financial systems: **[Duration, e.g., 1 hour]** maximum data loss
-    - Administrative systems: **[Duration, e.g., 4 hours]** maximum data loss
-    - Development systems: **[Duration, e.g., 24 hours]** maximum data loss
+    - Critical ePHI systems: **15 minutes** maximum data loss
+    - Financial systems: **1 hour** maximum data loss
+    - Administrative systems: **4 hours** maximum data loss
+    - Development systems: **24 hours** maximum data loss
 
 #### 3.2 Technical Disaster Recovery Integration
 

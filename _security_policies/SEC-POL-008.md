@@ -6,15 +6,15 @@ nav_order: 8
 
 ### 1. Objective
 
-The objective of this policy is to establish a systematic and continuous process for identifying, prioritizing, remediating, and verifying security vulnerabilities across all of **[Company Name]**'s information assets. This policy ensures that risks to the confidentiality, integrity, and availability of data, including electronic Protected Health Information (ePHI), are managed in a timely and effective manner.
+The objective of this policy is to establish a systematic and continuous process for identifying, prioritizing, remediating, and verifying security vulnerabilities across all of **ASM One Inc.**'s information assets. This policy ensures that risks to the confidentiality, integrity, and availability of data, including electronic Protected Health Information (ePHI), are managed in a timely and effective manner.
 
 ### 2. Scope
 
-This policy applies to all information systems and assets owned or managed by **[Company Name]**, including but not limited to, servers, workstations, network devices, applications (both internally developed and third-party), and cloud infrastructure.
+This policy applies to all information systems and assets owned or managed by **ASM One Inc.**, including but not limited to, servers, workstations, network devices, applications (both internally developed and third-party), and cloud infrastructure.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement and maintain a comprehensive vulnerability management program that covers the full lifecycle of a vulnerability.
+- **ASM One Inc.** shall implement and maintain a comprehensive vulnerability management program that covers the full lifecycle of a vulnerability.
 
 #### 3.1 Vulnerability Management Lifecycle
 
@@ -36,7 +36,7 @@ The program is structured around a continuous four-phase lifecycle:
         
     - The Security Team will enrich the CVSS base score with the following contextual factors to determine a final, internal Risk Rating:
         
-        - **Asset Criticality:** As defined in the **[Company Name]** System & Data Inventory (e.g., is the asset mission-critical, does it store ePHI?).
+        - **Asset Criticality:** As defined in the **ASM One Inc.** System & Data Inventory (e.g., is the asset mission-critical, does it store ePHI?).
             
         - **Data Sensitivity:** The classification of data stored or processed by the asset.
             
@@ -61,10 +61,10 @@ The program is structured around a continuous four-phase lifecycle:
     |   |   |
     |---|---|
     |**Severity**|**Remediation Service Level Agreement (SLA)**|
-    |**Critical**|**[Number, e.g., 15]** calendar days|
-    |**High**|**[Number, e.g., 30]** calendar days|
-    |**Medium**|**[Number, e.g., 90]** calendar days|
-    |**Low**|**[Number, e.g., 180]** calendar days or at the next scheduled maintenance|
+    |**Critical**|**15** calendar days|
+    |**High**|**30** calendar days|
+    |**Medium**|**90** calendar days|
+    |**Low**|**180** calendar days or at the next scheduled maintenance|
     
 - **4. Verification:** After remediation has been applied, the Security Team must perform a verification scan to confirm that the vulnerability has been successfully resolved. All verification results must be documented in the vulnerability tracking system.
     
@@ -79,7 +79,7 @@ To ensure comprehensive discovery, the following scanning schedule will be maint
     
 - **Application Scans:** Dynamic and/or static analysis of in-house developed applications must be performed prior to any major release.
     
-- **Scan Result Processing:** All vulnerability scan results must be automatically ingested into a centralized tracking system. The Security Team is responsible for reviewing scan reports within **[Number, e.g., 1]** business day(s) and initiating the Prioritization and Remediation lifecycle for all new, valid findings.
+- **Scan Result Processing:** All vulnerability scan results must be automatically ingested into a centralized tracking system. The Security Team is responsible for reviewing scan reports within **1** business day and initiating the Prioritization and Remediation lifecycle for all new, valid findings.
     
 
 #### 3.3 Exception Management and Risk Acceptance
@@ -88,7 +88,7 @@ In cases where a vulnerability cannot be remediated within the defined SLA (e.g.
 
 - **Request:** The asset owner must submit a formal exception request to the Security Team. The request must include a business justification, a risk analysis, and details of any proposed compensating controls. An acceptable compensating control must be a documented and testable measure that measurably reduces the likelihood or impact of the specific vulnerability being exploited.
     
-- **Approval:** All exception requests require documented approval from the asset owner's manager and the **[Role Title, e.g., Security Officer]**. For Critical or High severity vulnerabilities, approval from the **[Role Title, e.g., Chief Technology Officer]** is also required.
+- **Approval:** All exception requests require documented approval from the asset owner's manager and the **CISO**. For Critical or High severity vulnerabilities, approval from the **CTO** is also required.
     
 - **Duration:** Approved exceptions are temporary and must be reviewed at least quarterly. An exception is not a permanent solution.
     

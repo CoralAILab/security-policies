@@ -6,15 +6,15 @@ nav_order: 11
 
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive audit logging requirements for data access, modification, and regulatory compliance activities within **[Company Name]**'s information systems. This policy ensures that access to electronic Protected Health Information (ePHI), sensitive data, and compliance-related activities are comprehensively captured, monitored, and analyzed to support regulatory compliance, data protection, and forensic analysis. This policy focuses specifically on data handling, privacy protection, and compliance reporting while coordinating with authentication and network logging requirements defined in SEC-POL-010.
+The objective of this policy is to establish comprehensive audit logging requirements for data access, modification, and regulatory compliance activities within **ASM One Inc.**'s information systems. This policy ensures that access to electronic Protected Health Information (ePHI), sensitive data, and compliance-related activities are comprehensively captured, monitored, and analyzed to support regulatory compliance, data protection, and forensic analysis. This policy focuses specifically on data handling, privacy protection, and compliance reporting while coordinating with authentication and network logging requirements defined in SEC-POL-010.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** information systems, applications, databases, and services that process, store, or transmit sensitive data, ePHI, or compliance-related information. This includes all production databases, data processing applications, data analytics platforms, backup systems, and data transmission services across all environments. All workforce members, contractors, and third parties with access to sensitive data are subject to the data access and compliance logging requirements defined in this policy.
+This policy applies to all **ASM One Inc.** information systems, applications, databases, and services that process, store, or transmit sensitive data, ePHI, or compliance-related information. This includes all production databases, data processing applications, data analytics platforms, backup systems, and data transmission services across all environments. All workforce members, contractors, and third parties with access to sensitive data are subject to the data access and compliance logging requirements defined in this policy.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive audit logging and monitoring capabilities for all data access, modification, and compliance activities to ensure regulatory compliance, data protection, and forensic analysis capabilities as defined in SEC-POL-009 and coordinated with authentication and network logging requirements in SEC-POL-010.
+- **ASM One Inc.** shall implement comprehensive audit logging and monitoring capabilities for all data access, modification, and compliance activities to ensure regulatory compliance, data protection, and forensic analysis capabilities as defined in SEC-POL-009 and coordinated with authentication and network logging requirements in SEC-POL-010.
 
 #### 3.1 Data Access and Modification Logging
 

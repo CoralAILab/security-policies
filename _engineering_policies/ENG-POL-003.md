@@ -5,15 +5,15 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and maintenance of **[Company Name]**'s cloud-based computing infrastructure and core IT systems. This policy ensures that all infrastructure components including cloud services, servers, containers, databases, storage systems, and supporting computing platforms are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of information systems and electronic Protected Health Information (ePHI). This policy addresses cloud-native security, infrastructure-as-code, container security, system hardening, and hybrid cloud environments while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and maintenance of **ASM One Inc.**'s cloud-based computing infrastructure and core IT systems. This policy ensures that all infrastructure components including cloud services, servers, containers, databases, storage systems, and supporting computing platforms are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of information systems and electronic Protected Health Information (ePHI). This policy addresses cloud-native security, infrastructure-as-code, container security, system hardening, and hybrid cloud environments while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties involved in the design, deployment, configuration, or management of computing infrastructure and cloud services. It encompasses all infrastructure components including cloud platforms (AWS, Azure, GCP), virtual machines, containers, serverless functions, databases, storage systems, backup infrastructure, monitoring systems, and security tools. This policy covers all environments (production, staging, development, testing) and deployment models (public cloud, private cloud, hybrid cloud, multi-cloud). It applies to both infrastructure-as-a-service (IaaS) and platform-as-a-service (PaaS) implementations, as well as infrastructure-as-code (IaC) and configuration management practices.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties involved in the design, deployment, configuration, or management of computing infrastructure and cloud services. It encompasses all infrastructure components including cloud platforms (AWS, Azure, GCP), virtual machines, containers, serverless functions, databases, storage systems, backup infrastructure, monitoring systems, and security tools. This policy covers all environments (production, staging, development, testing) and deployment models (public cloud, private cloud, hybrid cloud, multi-cloud). It applies to both infrastructure-as-a-service (IaaS) and platform-as-a-service (PaaS) implementations, as well as infrastructure-as-code (IaC) and configuration management practices.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement defense-in-depth security controls across all cloud infrastructure and computing platform layers to ensure comprehensive protection against threats and compliance with regulatory requirements.
+- **ASM One Inc.** shall implement defense-in-depth security controls across all cloud infrastructure and computing platform layers to ensure comprehensive protection against threats and compliance with regulatory requirements.
 
 #### 3.1 Cloud Infrastructure Security Framework
 

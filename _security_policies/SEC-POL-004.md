@@ -5,29 +5,29 @@ nav_order: 4
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive framework for classifying, handling, and protecting **[Company Name]**'s information assets based on their sensitivity, value, and regulatory requirements. This policy ensures that appropriate security controls are applied consistently across all information types, with particular emphasis on protecting electronic Protected Health Information (ePHI) and other sensitive data in accordance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish a comprehensive framework for classifying, handling, and protecting **ASM One Inc.**'s information assets based on their sensitivity, value, and regulatory requirements. This policy ensures that appropriate security controls are applied consistently across all information types, with particular emphasis on protecting electronic Protected Health Information (ePHI) and other sensitive data in accordance with HIPAA, HITECH, and SOC 2 requirements.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, including employees, contractors, temporary staff, and third parties who create, access, process, store, transmit, or dispose of company information. It encompasses all information in any format (electronic, physical, or verbal) and at any location (on-premises, cloud, mobile devices, or third-party facilities). This policy covers the entire information lifecycle from creation to secure disposal.
+This policy applies to all **ASM One Inc.** workforce members, including employees, contractors, temporary staff, and third parties who create, access, process, store, transmit, or dispose of company information. It encompasses all information in any format (electronic, physical, or verbal) and at any location (on-premises, cloud, mobile devices, or third-party facilities). This policy covers the entire information lifecycle from creation to secure disposal.
 
 ### 3. Policy
 
-All **[Company Name]** information shall be classified according to its sensitivity level and handled in accordance with established security controls that protect confidentiality, integrity, and availability.
+All **ASM One Inc.** information shall be classified according to its sensitivity level and handled in accordance with established security controls that protect confidentiality, integrity, and availability.
 
 #### 3.1 Information Classification Framework
 
-- **[Company Name]** shall use a four-tier classification system to categorize all information assets:
+- **ASM One Inc.** shall use a four-tier classification system to categorize all information assets:
 
-- **Public:** Information that can be freely shared with the general public without risk to **[Company Name]** or its stakeholders.
+- **Public:** Information that can be freely shared with the general public without risk to **ASM One Inc.** or its stakeholders.
     - Examples: Marketing materials, public website content, published research, press releases
     - No special handling requirements beyond standard business practices
 
-- **Internal:** Information intended for use within **[Company Name]** that should not be disclosed to external parties without authorization.
+- **Internal:** Information intended for use within **ASM One Inc.** that should not be disclosed to external parties without authorization.
     - Examples: Internal policies, organizational charts, general business communications, non-sensitive system documentation
     - Requires basic access controls and confidentiality agreements
 
-- **Confidential:** Sensitive information that could cause significant harm to **[Company Name]**, its customers, or business partners if disclosed without authorization.
+- **Confidential:** Sensitive information that could cause significant harm to **ASM One Inc.**, its customers, or business partners if disclosed without authorization.
     - Examples: Financial records, strategic plans, customer lists, proprietary technology, employee personal information
     - Requires enhanced security controls, encryption for transmission, and formal access approval
 
@@ -58,7 +58,7 @@ Specific security controls shall be implemented based on information classificat
 - Public information can be transmitted via standard email or file sharing without encryption requirements.
 
 ##### 3.3.2 Internal Information
-- Access shall be restricted to authorized **[Company Name]** workforce members.
+- Access shall be restricted to authorized **ASM One Inc.** workforce members.
 - Internal information shall be password-protected when stored on portable devices.
 - Internal information shall be transmitted via secure channels (encrypted email, secure file transfer).
 - Internal information shall be stored on company-approved systems with appropriate access controls.

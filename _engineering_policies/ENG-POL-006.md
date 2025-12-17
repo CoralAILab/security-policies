@@ -5,15 +5,15 @@ nav_order: 6
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive requirements for the secure management of third-party libraries, frameworks, components, and DevOps tools throughout the software development lifecycle at **[Company Name]**. This policy ensures that third-party dependencies are properly assessed, monitored, and maintained to minimize security risks, protect electronic Protected Health Information (ePHI), and maintain compliance with HIPAA, HITECH, and SOC 2 requirements. By implementing rigorous third-party component governance and DevOps security practices, **[Company Name]** reduces supply chain risks and ensures the integrity of its development and deployment processes.
+The objective of this policy is to establish comprehensive requirements for the secure management of third-party libraries, frameworks, components, and DevOps tools throughout the software development lifecycle at **ASM One Inc.**. This policy ensures that third-party dependencies are properly assessed, monitored, and maintained to minimize security risks, protect electronic Protected Health Information (ePHI), and maintain compliance with HIPAA, HITECH, and SOC 2 requirements. By implementing rigorous third-party component governance and DevOps security practices, **ASM One Inc.** reduces supply chain risks and ensures the integrity of its development and deployment processes.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members involved in software development, infrastructure management, and DevOps activities, including developers, architects, DevOps engineers, security engineers, and system administrators. It encompasses all third-party components including open source libraries, commercial software components, frameworks, APIs, infrastructure-as-code templates, CI/CD tools, and development dependencies. This policy covers the entire lifecycle of third-party component management from selection and assessment through deployment, monitoring, and retirement across all development environments and production systems.
+This policy applies to all **ASM One Inc.** workforce members involved in software development, infrastructure management, and DevOps activities, including developers, architects, DevOps engineers, security engineers, and system administrators. It encompasses all third-party components including open source libraries, commercial software components, frameworks, APIs, infrastructure-as-code templates, CI/CD tools, and development dependencies. This policy covers the entire lifecycle of third-party component management from selection and assessment through deployment, monitoring, and retirement across all development environments and production systems.
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive governance and security controls for all third-party components used in software development and deployment processes to ensure supply chain security, minimize vulnerabilities, and maintain the integrity of systems and data.
+**ASM One Inc.** shall implement comprehensive governance and security controls for all third-party components used in software development and deployment processes to ensure supply chain security, minimize vulnerabilities, and maintain the integrity of systems and data.
 
 #### 3.1 Third-Party Component Management
 

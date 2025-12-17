@@ -6,15 +6,15 @@ nav_order: 9
 
 ### 1. Objective
 
-The objective of this policy is to establish the comprehensive audit logging framework and coordination requirements for **[Company Name]**'s information systems to ensure security events are captured, protected, and analyzed in support of incident detection, forensic analysis, and regulatory compliance. This policy provides the overarching framework for audit logging and coordinates the specialized logging requirements defined in SEC-POL-010 (Authentication and Network Audit Logging Policy) and SEC-POL-011 (Data Access and Compliance Audit Logging Policy). This framework ensures that appropriate audit trails are maintained to support the confidentiality, integrity, and availability of information assets and electronic Protected Health Information (ePHI) in compliance with HIPAA, HITECH, SOC 2, and HITRUST CSF v11.2.0 requirements.
+The objective of this policy is to establish the comprehensive audit logging framework and coordination requirements for **ASM One Inc.**'s information systems to ensure security events are captured, protected, and analyzed in support of incident detection, forensic analysis, and regulatory compliance. This policy provides the overarching framework for audit logging and coordinates the specialized logging requirements defined in SEC-POL-010 (Authentication and Network Audit Logging Policy) and SEC-POL-011 (Data Access and Compliance Audit Logging Policy). This framework ensures that appropriate audit trails are maintained to support the confidentiality, integrity, and availability of information assets and electronic Protected Health Information (ePHI) in compliance with HIPAA, HITECH, SOC 2, and HITRUST CSF v11.2.0 requirements.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** information systems, applications, network devices, security tools, and cloud services that process, store, or transmit company information or ePHI. This includes all production, staging, development, and administrative systems, as well as any third-party systems that process company data. All workforce members, contractors, and third parties with access to company systems are subject to the monitoring and logging requirements defined in this policy and its associated specialized policies SEC-POL-010 and SEC-POL-011.
+This policy applies to all **ASM One Inc.** information systems, applications, network devices, security tools, and cloud services that process, store, or transmit company information or ePHI. This includes all production, staging, development, and administrative systems, as well as any third-party systems that process company data. All workforce members, contractors, and third parties with access to company systems are subject to the monitoring and logging requirements defined in this policy and its associated specialized policies SEC-POL-010 and SEC-POL-011.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive audit logging and monitoring capabilities across all information systems through a coordinated framework that integrates authentication and network security logging (SEC-POL-010) with data access and compliance logging (SEC-POL-011) to provide early detection of security incidents, support forensic analysis, and maintain compliance with regulatory requirements.
+- **ASM One Inc.** shall implement comprehensive audit logging and monitoring capabilities across all information systems through a coordinated framework that integrates authentication and network security logging (SEC-POL-010) with data access and compliance logging (SEC-POL-011) to provide early detection of security incidents, support forensic analysis, and maintain compliance with regulatory requirements.
 
 #### 3.1 Audit Logging Framework Architecture
 
@@ -62,11 +62,11 @@ Comprehensive log management processes shall ensure the integrity, availability,
     - Log transmission shall use encrypted channels (TLS 1.3 or equivalent) to protect log data in transit
     - Redundant log collection paths shall be implemented for critical systems across all logging domains
     - Real-time log forwarding required for security events classified as Critical or High priority
-    - Backup log storage at local systems for minimum **[Duration, e.g., 7 days]** to ensure continuity during network outages
+    - Backup log storage at local systems for minimum **7 days** to ensure continuity during network outages
 
 - **Integrated Storage and Retention:**
-    - Security audit logs shall be retained for minimum **[Duration, e.g., 7 years]** to support regulatory compliance across all domains
-    - ePHI access logs shall be retained for minimum **[Duration, e.g., 6 years]** per HIPAA requirements as detailed in SEC-POL-011
+    - Security audit logs shall be retained for minimum **7 years** to support regulatory compliance across all domains
+    - ePHI access logs shall be retained for minimum **6 years** per HIPAA requirements as detailed in SEC-POL-011
     - Authentication and network logs shall be retained per SEC-POL-010 requirements with coordination for incident investigation
     - Archive logs shall be stored in immutable storage systems where technically feasible
     - Legal hold procedures shall supersede standard retention periods when litigation is anticipated

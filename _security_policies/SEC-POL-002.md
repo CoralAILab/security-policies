@@ -5,11 +5,11 @@ nav_order: 2
 ---
 ### 1. Objective
 
-The objective of this policy is to establish and enforce minimum standards for the creation, management, and protection of passwords. Strong password management is a critical control for safeguarding the confidentiality, integrity, and availability of **[Company Name]**'s information assets, particularly electronic Protected Health Information (ePHI), and for preventing unauthorized access to systems and data.
+The objective of this policy is to establish and enforce minimum standards for the creation, management, and protection of passwords. Strong password management is a critical control for safeguarding the confidentiality, integrity, and availability of **ASM One Inc.**'s information assets, particularly electronic Protected Health Information (ePHI), and for preventing unauthorized access to systems and data.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members (including employees, contractors, and temporary staff) and any third party that requires access to corporate systems, applications, network devices, and data. It governs all passwords used to access company resources, whether managed internally or by external service providers.
+This policy applies to all **ASM One Inc.** workforce members (including employees, contractors, and temporary staff) and any third party that requires access to corporate systems, applications, network devices, and data. It governs all passwords used to access company resources, whether managed internally or by external service providers.
 
 ### 3. Policy
 
@@ -33,7 +33,7 @@ To ensure passwords are resistant to common attack vectors, all user-created pas
         
 - **Prohibited Content:** Passwords must not contain common or easily guessable information. Systems shall be configured to check new passwords against a blocklist of common passwords and previously breached credentials. This includes, but is not limited to:
     
-    - Company names (e.g., `[Company Name]`) or variations.
+    - Company names (e.g., `ASM One Inc.`) or variations.
         
     - Usernames, personal names, family names, or pet names.
         
@@ -46,11 +46,11 @@ To ensure passwords are resistant to common attack vectors, all user-created pas
 
 Passwords must be actively managed throughout their lifecycle to limit the window of opportunity should a credential be compromised.
 
-- **Password Age:** All user passwords must be changed at least every **[Number, e.g., 90]** days. This requirement may be waived for specific systems where strong MFA is enforced and breached password screening is active, subject to a documented risk assessment approved by the Security Officer.
+- **Password Age:** All user passwords must be changed at least every **90** days. This requirement may be waived for specific systems where strong MFA is enforced and breached password screening is active, subject to a documented risk assessment approved by the Security Officer.
     
-- **Password History:** Systems must be configured to prevent the reuse of the previous **[Number, e.g., 5]** passwords for a given account.
+- **Password History:** Systems must be configured to prevent the reuse of the previous **5** passwords for a given account.
     
-- **Account Lockout:** User accounts must be automatically locked for a minimum of **[Duration, e.g., 30 minutes]** after **[Number, e.g., 5]** consecutive failed login attempts. The lockout must only be reversible by an authorized administrator or after the lockout duration has expired.
+- **Account Lockout:** User accounts must be automatically locked for a minimum of **30 minutes** after **5** consecutive failed login attempts. The lockout must only be reversible by an authorized administrator or after the lockout duration has expired.
     
 
 #### 3.3 Multi-Factor Authentication (MFA)

@@ -6,11 +6,11 @@ nav_order: 2
 
 ### 1. Objective
 
-The objective of this policy is to establish a formal process for managing all changes to **[Company Name]**'s production systems, applications, and infrastructure. This policy ensures that all modifications are properly authorized, tested, documented, and reviewed to maintain system stability, security, and integrity, thereby protecting sensitive data, including electronic Protected Health Information (ePHI).
+The objective of this policy is to establish a formal process for managing all changes to **ASM One Inc.**'s production systems, applications, and infrastructure. This policy ensures that all modifications are properly authorized, tested, documented, and reviewed to maintain system stability, security, and integrity, thereby protecting sensitive data, including electronic Protected Health Information (ePHI).
 
 ### 2. Scope
 
-This policy applies to all workforce members involved in the development, testing, approval, and deployment of changes to any production environment. This includes all applications, source code, infrastructure-as-code configurations, and databases that support **[Company Name]**'s services.
+This policy applies to all workforce members involved in the development, testing, approval, and deployment of changes to any production environment. This includes all applications, source code, infrastructure-as-code configurations, and databases that support **ASM One Inc.**'s services.
 
 ### 3. Policy
 
@@ -41,7 +41,7 @@ An emergency change is defined as a modification required to resolve a critical 
     
 - **Expedited Review:** Peer code review shall remain mandatory but may be expedited. For critical outages, the review shall be performed during or immediately after deployment to restore service quickly. Security review requirements shall follow the same risk-based approach as standard changes but with expedited timelines.
     
-- **Post-Implementation Review:** All emergency changes shall be followed by a formal post-implementation review within **[Number, e.g., 5]** business days (extended from 3 days to allow for proper analysis). This review shall analyze the root cause, validate the emergency response, and identify opportunities for process improvement. The standard change documentation shall be completed retroactively within **[Number, e.g., 2]** business days.
+- **Post-Implementation Review:** All emergency changes shall be followed by a formal post-implementation review within **5** business days (extended from 3 days to allow for proper analysis). This review shall analyze the root cause, validate the emergency response, and identify opportunities for process improvement. The standard change documentation shall be completed retroactively within **2** business days.
     
 - **Oversight:** A log of all emergency changes shall be maintained and reviewed on a quarterly basis by Engineering Management to identify trends and ensure the emergency process is not being misused to bypass standard change controls.
     

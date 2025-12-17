@@ -6,15 +6,15 @@ nav_order: 13
 
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive ethical guidelines and regulatory compliance requirements for the use of Artificial Intelligence (AI) and Machine Learning (ML) technologies at **[Company Name]**. This policy ensures that AI systems are developed, deployed, and used in accordance with ethical principles, regulatory requirements, and responsible AI practices while protecting individual rights, preventing bias and discrimination, and maintaining transparency and accountability. This policy focuses specifically on AI governance, ethical principles, regulatory compliance, and acceptable use guidelines while coordinating with technical security requirements defined in SEC-POL-012.
+The objective of this policy is to establish comprehensive ethical guidelines and regulatory compliance requirements for the use of Artificial Intelligence (AI) and Machine Learning (ML) technologies at **ASM One Inc.**. This policy ensures that AI systems are developed, deployed, and used in accordance with ethical principles, regulatory requirements, and responsible AI practices while protecting individual rights, preventing bias and discrimination, and maintaining transparency and accountability. This policy focuses specifically on AI governance, ethical principles, regulatory compliance, and acceptable use guidelines while coordinating with technical security requirements defined in SEC-POL-012.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates who use, evaluate, approve, or govern AI and ML technologies on behalf of the organization. It encompasses all AI applications including generative AI tools, machine learning models, automated decision-making systems, and AI-powered business applications regardless of their technical implementation. This policy covers AI governance, risk assessment, ethical evaluation, regulatory compliance, and acceptable use across all business functions including healthcare, administrative, and operational activities.
+This policy applies to all **ASM One Inc.** workforce members, contractors, third parties, and business associates who use, evaluate, approve, or govern AI and ML technologies on behalf of the organization. It encompasses all AI applications including generative AI tools, machine learning models, automated decision-making systems, and AI-powered business applications regardless of their technical implementation. This policy covers AI governance, risk assessment, ethical evaluation, regulatory compliance, and acceptable use across all business functions including healthcare, administrative, and operational activities.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive AI governance, ethical guidelines, and compliance controls to ensure responsible, fair, and compliant use of AI technologies while protecting individual rights, preventing discrimination, and maintaining regulatory compliance as coordinated with technical security requirements in SEC-POL-012.
+- **ASM One Inc.** shall implement comprehensive AI governance, ethical guidelines, and compliance controls to ensure responsible, fair, and compliant use of AI technologies while protecting individual rights, preventing discrimination, and maintaining regulatory compliance as coordinated with technical security requirements in SEC-POL-012.
 
 #### 3.1 AI Governance and Risk Management Framework
 

@@ -5,19 +5,19 @@ nav_order: 6
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive physical security requirements for **[Company Name]**'s facilities, equipment, and workforce in a cloud-first environment. This policy ensures that appropriate physical safeguards are implemented to protect against unauthorized access to facilities, equipment theft, environmental hazards, and physical threats while maintaining the confidentiality, integrity, and availability of information assets and electronic Protected Health Information (ePHI) in compliance with HIPAA, HITECH, and SOC 2 requirements. Given **[Company Name]**'s cloud-based infrastructure, this policy focuses on corporate facilities, endpoint devices, and the oversight of cloud provider physical security controls.
+The objective of this policy is to establish comprehensive physical security requirements for **ASM One Inc.**'s facilities, equipment, and workforce in a cloud-first environment. This policy ensures that appropriate physical safeguards are implemented to protect against unauthorized access to facilities, equipment theft, environmental hazards, and physical threats while maintaining the confidentiality, integrity, and availability of information assets and electronic Protected Health Information (ePHI) in compliance with HIPAA, HITECH, and SOC 2 requirements. Given **ASM One Inc.**'s cloud-based infrastructure, this policy focuses on corporate facilities, endpoint devices, and the oversight of cloud provider physical security controls.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, visitors, and third parties who access company facilities or handle company equipment. It encompasses all physical locations including corporate offices, remote work environments, temporary workspaces, and any location where company information is accessed or processed. This policy covers all physical assets including workstations, laptops, mobile devices, printed materials, storage media, networking equipment, and any other tangible assets containing or providing access to company information. While **[Company Name]** operates with cloud-based infrastructure, this policy also addresses the oversight and validation of cloud provider physical security controls.
+This policy applies to all **ASM One Inc.** workforce members, contractors, visitors, and third parties who access company facilities or handle company equipment. It encompasses all physical locations including corporate offices, remote work environments, temporary workspaces, and any location where company information is accessed or processed. This policy covers all physical assets including workstations, laptops, mobile devices, printed materials, storage media, networking equipment, and any other tangible assets containing or providing access to company information. While **ASM One Inc.** operates with cloud-based infrastructure, this policy also addresses the oversight and validation of cloud provider physical security controls.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement layered physical security controls appropriate to the cloud-based operating model while ensuring comprehensive protection of all physical assets and facilities.
+- **ASM One Inc.** shall implement layered physical security controls appropriate to the cloud-based operating model while ensuring comprehensive protection of all physical assets and facilities.
 
 #### 3.1 Facility Security and Access Control
 
-Physical access to all **[Company Name]** facilities shall be controlled and monitored to prevent unauthorized entry and protect information assets.
+Physical access to all **ASM One Inc.** facilities shall be controlled and monitored to prevent unauthorized entry and protect information assets.
 
 ##### 3.1.1 Office Facility Security
 
@@ -38,7 +38,7 @@ Physical access to all **[Company Name]** facilities shall be controlled and mon
     - CCTV surveillance systems covering all entry/exit points and sensitive areas
     - Motion detection systems for after-hours monitoring
     - 24/7 monitoring service or security personnel for critical facilities
-    - Video retention for minimum **[Duration, e.g., 90 days]** with secure storage
+    - Video retention for minimum **90 days** with secure storage
     - Integration with local law enforcement and emergency services
 
 ##### 3.1.2 Remote Work Environment Security
@@ -95,7 +95,7 @@ All company equipment and physical assets shall be protected against theft, dama
 
 #### 3.3 Cloud Provider Physical Security Oversight
 
-- **[Company Name]** shall validate and monitor the physical security controls implemented by cloud service providers to ensure appropriate protection of company data and systems. This oversight is the responsibility of the designated Cloud Security Team or Security Officer.
+- **ASM One Inc.** shall validate and monitor the physical security controls implemented by cloud service providers to ensure appropriate protection of company data and systems. This oversight is the responsibility of the designated Cloud Security Team or Security Officer.
 
 ##### 3.3.1 Cloud Provider Assessment
 

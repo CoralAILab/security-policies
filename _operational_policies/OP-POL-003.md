@@ -9,11 +9,11 @@ The objective of this policy is to establish practical, cloud-native data retent
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members who create, process, or access company information in cloud environments and systems. It covers electronic information stored in cloud services, databases, applications, and backup systems, with focus on automated lifecycle management rather than manual governance processes.
+This policy applies to all **ASM One Inc.** workforce members who create, process, or access company information in cloud environments and systems. It covers electronic information stored in cloud services, databases, applications, and backup systems, with focus on automated lifecycle management rather than manual governance processes.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement automated data retention and disposal practices using cloud-native services and technical controls to ensure regulatory compliance while minimizing manual administrative overhead.
+- **ASM One Inc.** shall implement automated data retention and disposal practices using cloud-native services and technical controls to ensure regulatory compliance while minimizing manual administrative overhead.
 
 #### 3.1 Automated Data Retention Framework
 
@@ -147,7 +147,7 @@ Streamlined procedures for emergency data preservation and legal hold requiremen
 ##### 3.5.1 Emergency Data Preservation
 
 - **Technical Implementation**: Database flags or API calls to suspend automated deletion shall be implemented for emergency situations.
-- **Rapid Response**: Ability to preserve data within **[Timeframe, e.g., 2 hours]** of notification shall be maintained for urgent preservation requirements.
+- **Rapid Response**: Ability to preserve data within **2 hours** of notification shall be maintained for urgent preservation requirements.
 - **Documentation**: Automated logging of preservation actions and affected data shall be performed to create audit trails.
 - **Coordination**: Clear escalation to Security Officer for emergency preservation requests shall be established for rapid response.
 
