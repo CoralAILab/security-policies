@@ -1,234 +1,188 @@
 ---
-title: Physical Security Policy (SEC-POL-006)
+title: Remote Work and Cloud Security Policy (SEC-POL-006)
 parent: Security Policies
 nav_order: 6
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive physical security requirements for **ASM One Inc.**'s facilities, equipment, and workforce in a cloud-first environment. This policy ensures that appropriate physical safeguards are implemented to protect against unauthorized access to facilities, equipment theft, environmental hazards, and physical threats while maintaining the confidentiality, integrity, and availability of information assets and electronic Protected Health Information (ePHI) in compliance with HIPAA, HITECH, and SOC 2 requirements. Given **ASM One Inc.**'s cloud-based infrastructure, this policy focuses on corporate facilities, endpoint devices, and the oversight of cloud provider physical security controls.
+The objective of this policy is to establish comprehensive security requirements for **ASM One Inc.**'s remote workforce, endpoint devices, and cloud infrastructure oversight. As a fully remote, cloud-native organization, this policy ensures that appropriate safeguards are implemented to protect company equipment, secure remote work environments, and validate cloud provider security controls while maintaining the confidentiality, integrity, and availability of information assets and electronic Protected Health Information (ePHI) in compliance with HIPAA, HITECH, and SOC 2 requirements.
 
 ### 2. Scope
 
-This policy applies to all **ASM One Inc.** workforce members, contractors, visitors, and third parties who access company facilities or handle company equipment. It encompasses all physical locations including corporate offices, remote work environments, temporary workspaces, and any location where company information is accessed or processed. This policy covers all physical assets including workstations, laptops, mobile devices, printed materials, storage media, networking equipment, and any other tangible assets containing or providing access to company information. While **ASM One Inc.** operates with cloud-based infrastructure, this policy also addresses the oversight and validation of cloud provider physical security controls.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties who access company systems or handle company equipment. It encompasses all remote work locations including home offices, co-working spaces, and any location where company information is accessed or processed. This policy covers all endpoint devices including workstations, laptops, and mobile devices, as well as the oversight and validation of cloud provider security controls for infrastructure hosting company data and systems.
 
 ### 3. Policy
 
-- **ASM One Inc.** shall implement layered physical security controls appropriate to the cloud-based operating model while ensuring comprehensive protection of all physical assets and facilities.
+- **ASM One Inc.** shall implement layered security controls appropriate for a remote-first, cloud-native operating model while ensuring comprehensive protection of all endpoint devices and validation of cloud provider security.
 
-#### 3.1 Facility Security and Access Control
+#### 3.1 Remote Work Environment Security
 
-Physical access to all **ASM One Inc.** facilities shall be controlled and monitored to prevent unauthorized entry and protect information assets.
+All remote work environments shall meet minimum security requirements to protect company information and systems.
 
-##### 3.1.1 Office Facility Security
+##### 3.1.1 Home Office Security Requirements
 
-- **Access Control Systems:**
-    - Electronic badge access systems shall be implemented for all corporate facilities
-    - Multi-factor authentication required for access to areas containing sensitive information
-    - Visitor management system with registration, identification verification, and escort requirements
-    - Access permissions based on role and business need with access reviews following the cadence defined in AC-POL-001 (IAM) and AC-POL-004 (PAM)
-    - Emergency access procedures and override capabilities for authorized personnel
-
-- **Physical Security Zones:**
-- **Public Areas:** Reception, common areas - basic access controls and monitoring
-- **General Office:** Standard work areas - badge access required, visitor escort beyond this point
-- **Restricted Areas:** IT equipment rooms, executive offices, records storage - enhanced access controls
-- **Highly Restricted:** Server rooms, telecommunications closets - maximum security controls with biometric access
-
-- **Facility Monitoring:**
-    - CCTV surveillance systems covering all entry/exit points and sensitive areas
-    - Motion detection systems for after-hours monitoring
-    - 24/7 monitoring service or security personnel for critical facilities
-    - Video retention for minimum **90 days** with secure storage
-    - Integration with local law enforcement and emergency services
-
-##### 3.1.2 Remote Work Environment Security
-
-- **Home Office Security Requirements:**
-    - Dedicated workspace with physical security measures to prevent unauthorized access
-    - Locking mechanisms for desks, filing cabinets, and storage areas containing company information
-    - Privacy screens or positioning to prevent visual access to company information
+- **Workspace Security:**
+    - Dedicated workspace with measures to prevent unauthorized access to screens and equipment
+    - Privacy screens or positioning to prevent visual access to company information by household members or visitors
     - Secure storage for company equipment when not in use
-    - Environmental protections against theft, damage, and unauthorized access
+    - Locking mechanisms for storage areas containing any physical company materials
 
-- **Co-working and Public Space Restrictions:**
-    - Prohibition of accessing ePHI or Restricted information in public spaces
-    - Privacy screens required when working on Confidential information in shared spaces
-    - Secure Wi-Fi requirements and VPN usage for all company system access
-    - Physical security of devices and materials in temporary work environments
-    - Clean desk practices and secure storage of sensitive materials
+- **Network Security:**
+    - Secure Wi-Fi with WPA3 or WPA2 encryption and strong passwords
+    - Router firmware kept up to date with security patches
+    - VPN required for all access to company systems and data
+    - Prohibition of accessing company systems on public or unsecured networks without VPN
 
-#### 3.2 Equipment and Asset Protection
+- **Environmental Security:**
+    - Protection of equipment from environmental hazards (water, heat, pets)
+    - Adequate power protection (surge protectors recommended)
+    - Secure disposal of any printed materials containing company information
 
-All company equipment and physical assets shall be protected against theft, damage, and unauthorized access throughout their lifecycle.
+##### 3.1.2 Public and Shared Space Restrictions
 
-##### 3.2.1 Endpoint Device Security
+- **ePHI and Restricted Data:**
+    - Processing of ePHI or Restricted information is prohibited in public spaces (cafes, airports, co-working spaces)
+    - Privacy screens required when working on Confidential information in any shared environment
+    - Voice calls discussing sensitive information prohibited in public areas
 
-- **Physical Device Protection:**
-    - Cable locks or security devices required for desktop computers in office environments
-    - Laptop encryption and remote wipe capabilities for all mobile devices
-    - Asset tagging and inventory tracking for all company equipment
-    - Secure storage requirements for devices containing sensitive information
-    - Insurance coverage for high-value equipment and mobile devices
+- **Device Security in Public:**
+    - Devices shall never be left unattended in public spaces
+    - Screen lock shall be engaged immediately when stepping away
+    - Bluetooth and AirDrop shall be disabled when not in active use
+    - Shoulder surfing awareness and positioning required
 
-- **Device Lifecycle Management:**
+#### 3.2 Endpoint Device Security
+
+All company equipment and endpoint devices shall be protected against theft, damage, and unauthorized access throughout their lifecycle.
+
+##### 3.2.1 Device Protection Requirements
+
+- **Physical Device Security:**
+    - Full disk encryption required on all devices (FileVault, BitLocker, or equivalent)
+    - Remote wipe capabilities enabled and tested for all mobile devices and laptops
+    - Strong authentication required (biometric or complex passcode)
+    - Automatic screen lock after 5 minutes of inactivity maximum
+
+- **Device Configuration:**
+    - Mobile Device Management (MDM) enrollment required for all devices accessing company systems
+    - Automatic security updates enabled where supported
+    - Only approved applications from company software catalog
+    - Local firewall enabled on all devices
+
+##### 3.2.2 Device Lifecycle Management
+
+- **Provisioning:**
     - Secure provisioning process with pre-configured security settings
-    - Regular physical inventory audits (quarterly for mobile devices, annually for fixed assets)
-    - Maintenance and repair procedures that protect data confidentiality
-    - Secure decommissioning with verified data destruction
-    - Return procedures for workforce member separation or equipment refresh
+    - Asset tagging and inventory tracking for all company equipment
+    - MDM enrollment verification before access to company resources
 
-##### 3.2.2 Removable Media and Storage Security
+- **Ongoing Management:**
+    - Quarterly compliance verification through MDM
+    - Regular security posture assessments
+    - Prompt reporting of lost, stolen, or compromised devices
 
-- **Media Handling Requirements:**
-    - Encrypted storage required for all removable media containing company information
-    - Locked storage for backup media, USB drives, and optical media
-    - Chain of custody procedures for media transportation
-    - Inventory management system for tracking media location and usage
-    - Environmental protection for media storage (temperature, humidity, magnetic fields)
+- **Decommissioning:**
+    - Secure data destruction with verification before device disposal or reassignment
+    - Certificate of destruction for devices containing ePHI
+    - Proper disposal of devices through certified e-waste recyclers
 
-- **Secure Disposal Procedures:**
-    - Physical destruction required for all media containing ePHI or Restricted information
-    - Certified disposal vendors with appropriate security clearances and insurance
-    - Witnessed destruction for high-sensitivity media with certificates of completion
-    - Degaussing or physical destruction for magnetic media
-    - Secure overwriting followed by physical destruction for solid-state media
+##### 3.2.3 Removable Media Security
 
-#### 3.3 Cloud Provider Physical Security Oversight
+- **Usage Restrictions:**
+    - Use of removable media (USB drives, external hard drives) for company data requires approval
+    - All approved removable media must be encrypted
+    - Removable media containing ePHI prohibited except for approved backup procedures
 
-- **ASM One Inc.** shall validate and monitor the physical security controls implemented by cloud service providers to ensure appropriate protection of company data and systems. This oversight is the responsibility of the designated Cloud Security Team or Security Officer.
+- **Secure Disposal:**
+    - Secure deletion required before disposal or reassignment of any removable media
+    - Physical destruction for media that contained ePHI or Restricted information
+
+#### 3.3 Cloud Provider Security Oversight
+
+**ASM One Inc.** shall validate and monitor the security controls implemented by cloud service providers to ensure appropriate protection of company data and systems.
 
 ##### 3.3.1 Cloud Provider Assessment
 
-- **Physical Security Requirements:**
-    - SOC 2 Type II certification or equivalent demonstrating physical security controls
-    - Multi-factor authentication and biometric access controls for data center facilities
-    - 24/7 physical security monitoring and surveillance systems
+- **Security Requirements for Cloud Providers:**
+    - SOC 2 Type II certification or equivalent demonstrating security controls
+    - Multi-factor authentication and strong access controls for data center facilities
+    - 24/7 security monitoring and surveillance systems
     - Environmental controls including fire suppression, climate control, and power management
     - Geographic separation of data centers for disaster recovery and business continuity
+    - Encryption of data at rest and in transit
 
 - **Compliance Validation:**
-    - The Cloud Security Team shall conduct and document an annual review of all critical cloud providers' security certifications (e.g., SOC 2 Type II, ISO 27001) and audit reports.
-    - Validation of physical security controls through review of third-party assessments.
-    - Contractual agreements must include requirements for physical security standards and incident notification within a defined timeframe.
-    - Right-to-audit clauses shall be included in contracts for critical cloud services where feasible.
-    - Geographic data location controls shall be configured to align with legal and regulatory requirements.
+    - Annual review of all critical cloud providers' security certifications (SOC 2 Type II, ISO 27001)
+    - Review of third-party audit reports and security assessments
+    - Contractual requirements for security standards and incident notification
+    - Right-to-audit clauses in contracts for critical cloud services where feasible
+    - Geographic data location controls aligned with legal and regulatory requirements
 
 ##### 3.3.2 Cloud Security Monitoring
 
 - **Ongoing Oversight:**
-    - The Cloud Security Team shall conduct and document a quarterly review of cloud provider security incident reports and notifications.
-    - Continuous monitoring of cloud provider security advisories and documentation for significant control changes.
-    - An annual assessment of cloud provider business continuity and disaster recovery test results shall be conducted and documented.
-    - The Cloud Security Team shall validate that data center certifications and compliance status remain active and in good standing.
-    - Coordination with cloud providers for security investigations and incident response shall be managed by the Security Officer and Incident Response Team.
+    - Quarterly review of cloud provider security incident reports and notifications
+    - Continuous monitoring of cloud provider security advisories for significant control changes
+    - Annual assessment of cloud provider business continuity and disaster recovery capabilities
+    - Validation that data center certifications and compliance status remain active
+    - Coordination with cloud providers for security investigations and incident response
 
-#### 3.4 Physical Document and Information Security
+- **Cloud Configuration Security:**
+    - Infrastructure-as-Code for consistent and auditable cloud configurations
+    - Regular security assessments of cloud resource configurations
+    - Automated compliance monitoring for cloud security baselines
+    - Access logging and monitoring for all cloud administrative activities
 
-Physical documents and printed materials containing sensitive information shall be protected throughout their lifecycle.
+#### 3.4 Information Handling in Remote Environments
 
-##### 3.4.1 Document Handling Requirements
+Information shall be protected appropriately in all remote work contexts.
 
-- **Secure Document Management:**
-    - Classification and marking of all physical documents based on sensitivity levels
-    - Locked storage for documents containing Confidential or Restricted information
-    - Clean desk policy requiring secure storage of sensitive documents when unattended
-    - Controlled access to document storage areas with access logging
-    - Regular inventory and review of stored documents
+##### 3.4.1 Digital Information Security
 
-- **Document Transportation:**
-    - Secure transportation methods for sensitive documents between facilities
-    - Chain of custody documentation for document transfers
-    - Encrypted digital alternatives preferred over physical document transportation
-    - Approval requirements for removing sensitive documents from secure facilities
-    - Insurance coverage for valuable or sensitive document shipments
+- **Data Protection:**
+    - All company data shall be stored in approved cloud systems, not on local devices
+    - Encryption required for any data temporarily stored locally
+    - Regular backup verification for cloud-stored data
+    - Secure file sharing only through approved platforms
 
-##### 3.4.2 Printing and Output Security
+- **Communication Security:**
+    - Encrypted communication channels required for all business communications
+    - Approved video conferencing platforms only for meetings involving sensitive information
+    - Screen sharing awareness—verify attendees before sharing sensitive content
 
-- **Secure Printing Controls:**
-    - Follow-me printing or secure print release for sensitive documents
-    - Physical presence required at printer for document retrieval
-    - Automatic deletion of print jobs after specified time periods
-    - Monitoring and logging of all print activities for sensitive information
-    - Secure disposal of misprints and unwanted printouts
+##### 3.4.2 Minimal Physical Document Handling
 
-- **Print Environment Security:**
-    - Printers located in secure areas with appropriate access controls
-    - Network printing security with authentication and encryption
-    - Regular maintenance and service with data protection requirements
-    - Secure disposal of printer components containing data (hard drives, memory)
-    - Vendor agreements for secure printer maintenance and support
+- **Paper Document Policy:**
+    - Digital-first approach—avoid printing sensitive information when possible
+    - Any printed documents containing Confidential or Restricted information shall be:
+        - Kept secure and not visible to unauthorized persons
+        - Shredded or securely destroyed when no longer needed
+        - Never disposed of in regular trash
 
-#### 3.5 Environmental and Infrastructure Security
+#### 3.5 Security Awareness and Responsibilities
 
-Environmental controls and infrastructure security measures shall protect against natural disasters, power failures, and other environmental threats.
+All workforce members shall understand and fulfill their security responsibilities in remote work environments.
 
-##### 3.5.1 Environmental Controls
+##### 3.5.1 Workforce Security Requirements
 
-- **Climate and Power Management:**
-    - Uninterruptible Power Supply (UPS) systems for critical equipment and systems
-    - Surge protection and power conditioning for all electronic equipment
-    - Emergency lighting and communication systems for facility emergencies
-    - Temperature and humidity monitoring for equipment areas
-    - Backup power systems for extended outages
+- **Security Training:**
+    - Annual security awareness training including remote work security procedures
+    - Role-specific training for handling ePHI and sensitive data remotely
+    - Incident reporting procedures for security concerns or breaches
 
-- **Fire and Safety Protection:**
-    - Fire detection and suppression systems appropriate for electronic equipment
-    - Emergency evacuation procedures and regular drills
-    - First aid and emergency response equipment and training
-    - Safety equipment and procedures for equipment maintenance
-    - Integration with local emergency services and authorities
+- **Compliance Responsibilities:**
+    - Maintain secure home office environment meeting policy requirements
+    - Report any suspected security incidents or device compromises immediately
+    - Participate in security assessments and compliance verification activities
+    - Keep devices updated and compliant with security requirements
 
-##### 3.5.2 Physical Infrastructure Security
+##### 3.5.2 Incident Reporting
 
-- **Building and Perimeter Security:**
-    - Secure building construction with reinforced entry points
-    - Perimeter fencing and lighting for standalone facilities
-    - Vehicle access controls and parking security measures
-    - Landscape design that supports security monitoring and access control
-    - Regular security assessments and penetration testing of physical controls
-
-- **Utility and Service Protection:**
-    - Secure access to utility rooms and service areas
-    - Protection of telecommunications and network infrastructure
-    - Backup communication systems for emergency situations
-    - Service provider security requirements and background checks
-    - Regular inspection and maintenance of physical infrastructure
-
-#### 3.6 Workplace Security and Safety
-
-Comprehensive workplace security measures shall protect workforce members and maintain a secure working environment.
-
-##### 3.6.1 Personnel Security
-
-- **Workplace Safety:**
-    - Background check requirements for personnel with physical access to sensitive areas
-    - Security awareness training including physical security procedures
-    - Identification badge requirements for all workforce members and visitors
-    - Reporting procedures for suspicious activities and security incidents
-    - Security escort requirements for unauthorized individuals
-
-- **Emergency Procedures:**
-    - Emergency contact information and notification procedures
-    - Evacuation plans and assembly points for different emergency scenarios
-    - Emergency communication systems and backup procedures
-    - Business continuity procedures for facility unavailability
-    - Coordination with law enforcement and emergency services
-
-##### 3.6.2 Visitor and Contractor Management
-
-- **Visitor Control Procedures:**
-    - Advance registration and approval for all visitors
-    - Photo identification verification and temporary badge issuance
-    - Continuous escort requirements for visitors in sensitive areas
-    - Visitor activity logging and monitoring
-    - Background check requirements for contractors with extended facility access
-
-- **Contractor Security Requirements:**
-    - Security agreements and confidentiality requirements for all contractors
-    - Equipment and tool inspection procedures for maintenance personnel
-    - Supervised access for contractors working on sensitive systems
-    - Verification of contractor personnel authorization and identification
-    - Secure disposal of any materials generated during contractor activities
+- **Reporting Requirements:**
+    - Lost or stolen devices shall be reported within 1 hour of discovery
+    - Suspected security incidents shall be reported immediately to security@trycoral.ai
+    - Workforce members shall cooperate with remote device wipe procedures when required
+    - Documentation of incident circumstances shall be provided as requested
 
 ### 4. Standards Compliance
 
@@ -242,12 +196,9 @@ See [Annex: Glossary](../_annexes/glossary.md)
 
 |**Role**|**Responsibility**|
 |---|---|
-|**Security Officer**|Develop physical security policies, oversee security system implementation, coordinate with facilities management, and ensure compliance with security standards.|
-|**Facilities Management**|Maintain physical security systems, manage environmental controls, coordinate building security, and ensure compliance with safety regulations.|
-|**IT Security Team**|Secure IT equipment and infrastructure, coordinate physical and logical security measures, and monitor security events.|
-|**Human Resources**|Manage badge access provisioning, conduct background checks, coordinate visitor management, and integrate security into HR processes.|
-|**Reception/Administrative Staff**|Manage visitor registration and badging, monitor lobby areas, enforce visitor policies, and coordinate with security team.|
-|**Cloud Security Team**|Assess cloud provider physical security controls, monitor cloud security compliance, and coordinate cloud security requirements.|
-|**All Workforce Members**|Comply with physical security policies, secure workspaces and equipment, challenge unauthorized individuals, and report security incidents.|
-|**Managers/Supervisors**|Ensure team compliance with physical security policies, approve visitor access, support emergency procedures, and manage physical asset inventory.|
-|**Remote Workers**|Implement home office security measures, protect company equipment, follow secure work practices, and report security concerns.|
+|**Security Officer**|Develop remote work security policies, oversee cloud provider security assessments, coordinate with IT for endpoint security, and ensure compliance with security standards.|
+|**IT Security Team**|Implement and manage MDM systems, configure endpoint security controls, monitor device compliance, respond to security incidents, and maintain cloud security configurations.|
+|**Cloud Security Team**|Assess cloud provider security controls, monitor cloud security compliance, review provider certifications, and coordinate cloud security requirements.|
+|**Human Resources**|Communicate remote work security requirements during onboarding, coordinate with IT for device provisioning and return, and support security training initiatives.|
+|**All Workforce Members**|Comply with remote work security policies, maintain secure work environments, protect company equipment, complete required security training, and report security incidents promptly.|
+|**Managers/Supervisors**|Ensure team compliance with remote work security policies, support security training completion, and coordinate device management for their teams.|

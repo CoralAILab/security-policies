@@ -5,11 +5,11 @@ nav_order: 2
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive business continuity management framework for **ASM One Inc.** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **ASM One Inc.** maintains essential service delivery to patients and customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
+The objective of this policy is to establish a comprehensive business continuity management framework for **ASM One Inc.** that ensures the continuation of critical business operations and essential services during disruptions. This policy focuses on business process continuity, stakeholder communication, alternative operating procedures, and organizational resilience while technical disaster recovery capabilities are addressed in the Disaster Recovery and Technical Operations Policy (RES-POL-005). By implementing structured business continuity capabilities including business impact analysis, emergency response procedures, and alternative operations, **ASM One Inc.** maintains essential service delivery to customers, protects electronic Protected Health Information (ePHI), meets regulatory obligations under HIPAA, HITECH, and SOC 2, and minimizes business impact during various types of disruptions.
 
 ### 2. Scope
 
-This policy applies to all **ASM One Inc.** workforce members, business units, facilities, business processes, and third-party service providers that support critical business operations. It encompasses business continuity planning and response for all types of disruptions including natural disasters, pandemics, civil emergencies, supply chain disruptions, workforce shortages, and other events that could impact business operations. This policy covers business process continuity, stakeholder management, emergency communications, alternative work arrangements, and vendor continuity management, while technical system recovery is addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
+This policy applies to all **ASM One Inc.** workforce members, business units, business processes, and third-party service providers that support critical business operations. It encompasses business continuity planning and response for all types of disruptions including natural disasters, pandemics, cyber incidents, supply chain disruptions, workforce shortages, and other events that could impact business operations. This policy covers business process continuity, stakeholder management, emergency communications, alternative work arrangements, and vendor continuity management, while technical system recovery is addressed through the Disaster Recovery and Technical Operations Policy (RES-POL-005).
 
 ### 3. Policy
 
@@ -21,16 +21,16 @@ This policy applies to all **ASM One Inc.** workforce members, business units, f
 
 ##### 3.1.1 Business Continuity Principles
 
-- **Life Safety Priority:**
-    - The safety and security of workforce members, patients, and visitors shall be the highest priority in all emergency situations.
-    - Emergency evacuation and safety procedures shall take precedence over business operations.
+- **Workforce Safety Priority:**
+    - The safety and security of workforce members shall be the highest priority in all emergency situations.
+    - Emergency communication and safety procedures shall take precedence over business operations.
     - Clear communication channels and emergency coordination procedures shall be maintained at all times.
 
 - **Essential Services Continuity:**
     - Critical business functions shall be identified and prioritized for continuity during disruptions.
     - Minimum service levels shall be defined for essential operations to ensure baseline service delivery.
     - Alternative methods and resources shall be available to maintain critical services during emergencies.
-    - Patient care and safety functions shall receive highest priority for resource allocation.
+    - Customer-facing services and ePHI processing functions shall receive highest priority for resource allocation.
 
 - **Regulatory Compliance:**
     - Business continuity plans shall ensure continued compliance with HIPAA, HITECH, and other applicable regulations.
@@ -49,22 +49,22 @@ This policy applies to all **ASM One Inc.** workforce members, business units, f
 The Business Continuity Manager, in coordination with Business Unit Leaders, shall conduct and formally document a comprehensive Business Impact Analysis (BIA) at least annually, or whenever a significant change to business operations occurs. The BIA report, which defines the recovery requirements for all critical functions, shall be reviewed and formally approved by the Information Security Committee.
 
 - **Critical Function Identification:**
-- **Immediate (0-4 hours):** Patient care systems, emergency services, life safety systems
-- **Urgent (4-24 hours):** Clinical documentation, pharmacy systems, laboratory services
-- **Important (1-3 days):** Billing systems, administrative functions, non-critical applications
-- **Deferrable (3+ days):** Training systems, development environments, archival processes
+- **Immediate (0-4 hours):** Core document processing API, authentication and authorization systems, database infrastructure
+- **Urgent (4-24 hours):** Customer portal, webhook delivery systems, reporting and analytics, notification services
+- **Important (1-3 days):** Administrative systems, billing integration, customer support tools, internal collaboration tools
+- **Deferrable (3+ days):** Development and staging environments, training systems, archival processes
 
 - **Impact Assessment Criteria:**
 - **Financial Impact:** Revenue loss, additional costs, regulatory fines, contractual penalties
 - **Operational Impact:** Service disruption, productivity loss, customer dissatisfaction
 - **Regulatory Impact:** Compliance violations, reporting failures, audit findings
 - **Reputational Impact:** Public relations damage, loss of stakeholder confidence
-- **Patient Safety Impact:** Risk to patient care, safety concerns, clinical service disruption
+- **Customer Impact:** Service availability to healthcare providers, downstream effects on customer operations
 
 - **Recovery Time Objectives (RTO):**
     - Maximum acceptable downtime for each critical business function
     - Immediate: **1 hour** maximum downtime
-    - Urgent: **4 hours** maximum downtime  
+    - Urgent: **4 hours** maximum downtime
     - Important: **24 hours** maximum downtime
     - Deferrable: **72 hours** maximum downtime
 
@@ -89,58 +89,57 @@ Standardized emergency response procedures shall guide initial response actions 
     - Initial situation assessment and impact determination
     - Activation of appropriate emergency response level
     - Notification of emergency response team members
-    - Establishment of emergency operations center
+    - Establishment of virtual emergency operations coordination
     - Communication with key stakeholders and authorities
 
 - **Emergency Response Levels:**
-- **Level 1 - Facility Emergency:** Local facility impact requiring immediate response
-- **Level 2 - Regional Emergency:** Multi-facility or regional impact requiring coordinated response
+- **Level 1 - Service Disruption:** Single service or limited impact requiring immediate response
+- **Level 2 - Major Incident:** Multiple services or significant customer impact requiring coordinated response
 - **Level 3 - Enterprise Emergency:** Organization-wide impact requiring full emergency response activation
 
 ##### 3.3.2 Communication Procedures
 
 - **Emergency Notification System:**
     - Automated notification system for workforce members
-    - Multiple communication channels (phone, email, text, mobile app)
-    - 24/7 emergency hotline for situation updates
-    - Social media and website updates for public communication
-    - Integration with local emergency management systems
+    - Multiple communication channels (phone, email, text, Slack)
+    - 24/7 emergency communication capabilities
+    - Customer status page and notification updates
+    - Integration with incident management systems
 
 - **Stakeholder Communication:**
     - Immediate notification of executive leadership
-    - Regular updates to workforce members and their families
-    - Communication with patients, customers, and business partners
-    - Coordination with regulatory agencies and oversight bodies
-    - Media relations and public communication management
+    - Regular updates to workforce members
+    - Communication with customers and business partners
+    - Coordination with regulatory agencies if required
+    - External communication management for significant incidents
 
 #### 3.4 Alternative Operations
 
 Alternative operating procedures shall enable continuation of critical business functions during disruptions.
 
-##### 3.4.1 Alternate Work Arrangements
+##### 3.4.1 Remote Work Continuity
 
-- **Remote Work Capabilities:**
-    - Work-from-home infrastructure and technology
-    - Secure remote access to critical systems and applications
-    - Video conferencing and collaboration tools
-    - Remote printing and document management capabilities
-    - Virtual private network (VPN) capacity for all workforce members
+As a fully remote organization, **ASM One Inc.** maintains inherent resilience through distributed workforce operations:
 
-- **Alternate Facility Operations:**
-    - Pre-arranged alternate facilities for critical operations
-    - Mobile command centers for field operations
-    - Temporary workspace arrangements with business partners
-    - Equipment and supply pre-positioning at alternate sites
-    - Vendor agreements for rapid facility setup and provisioning
+- **Distributed Workforce:**
+    - Geographic distribution of workforce reduces single-point-of-failure risks
+    - Workforce members equipped for full productivity from any location
+    - Cloud-based tools enable seamless collaboration regardless of individual circumstances
+    - Redundant communication channels for team coordination
+
+- **Infrastructure Redundancy:**
+    - Cloud infrastructure with multi-region capabilities
+    - Multiple internet connectivity options for critical personnel
+    - Backup communication systems (phone, alternate messaging platforms)
+    - Secure remote access maintained for all workforce members
 
 ##### 3.4.2 Critical System Alternatives
 
 - **Manual Procedures:**
-    - Paper-based backup procedures for critical electronic systems
-    - Manual patient registration and medical record procedures
-    - Alternative communication methods (phone, fax, radio)
-    - Cash-based transaction procedures for payment systems
-    - Physical key management for electronic access control failures
+    - Documented manual procedures for critical electronic systems where feasible
+    - Alternative communication methods (phone, alternate platforms)
+    - Emergency customer communication procedures
+    - Escalation procedures for extended outages
 
 - **Vendor Support Services:**
     - Emergency vendor agreements for rapid response
@@ -158,7 +157,6 @@ Regular testing and maintenance shall ensure the effectiveness of business conti
 - **Monthly Testing:**
     - Backup and recovery procedures for critical systems
     - Emergency communication systems and notification procedures
-    - Alternate facility and equipment readiness
     - Vendor emergency response capabilities
     - Documentation updates and contact information verification
 
@@ -167,7 +165,6 @@ Regular testing and maintenance shall ensure the effectiveness of business conti
     - Partial system recovery testing and validation
     - Workforce training and awareness programs
     - Business impact analysis updates and revisions
-    - Emergency supply inventory and expiration date management
 
 - **Annual Testing:**
     - Full-scale business continuity exercise
@@ -221,27 +218,26 @@ Business continuity requirements shall be incorporated into vendor management an
     - Audit and compliance requirements for emergency operations
     - Data backup and recovery requirements for ePHI systems
 
-#### 3.6 Business Recovery and Restoration
+#### 3.7 Business Recovery and Restoration
 
 Systematic business recovery procedures shall guide the restoration of normal business operations following emergency situations, with technical system recovery coordinated through RES-POL-005.
 
-##### 3.6.1 Business Recovery Procedures
+##### 3.7.1 Business Recovery Procedures
 
-- **Operational Damage Assessment:**
-    - Comprehensive assessment of facilities, equipment, and business capabilities
-    - Safety inspection and clearance for facility reoccupancy and operations
+- **Operational Assessment:**
+    - Comprehensive assessment of service capabilities and business operations
     - Business process and service capability evaluation and validation
-    - Workforce accountability and fitness for duty assessment
+    - Workforce accountability and availability assessment
     - Vendor and supply chain impact assessment and alternative sourcing
 
 - **Phased Business Recovery Approach:**
-    - **Phase 1**: Life safety and immediate emergency response coordination
+    - **Phase 1**: Workforce safety confirmation and immediate emergency response coordination
     - **Phase 2**: Critical business process restoration and essential service resumption
     - **Phase 3**: Full operational capability restoration and normal service levels
     - **Phase 4**: Normal operations resumption and lessons learned integration
     - Business process dependencies mapping and coordinated restoration
 
-##### 3.6.2 Post-Incident Review and Improvement
+##### 3.7.2 Post-Incident Review and Improvement
 
 Following any activation of the business continuity plan, a formal post-incident review shall be conducted to ensure organizational learning and improvement.
 
@@ -277,9 +273,8 @@ The following roles and responsibilities apply specifically to business continui
 |**Executive Leadership**|Provide strategic direction and resources for business continuity program, approve business operational plans and resource allocation, and communicate with external stakeholders during business emergencies.|
 |**Business Continuity Manager**|Develop and maintain business continuity plans, coordinate business impact analysis and testing, manage business emergency response activities, and ensure business operational compliance.|
 |**Business Unit Leaders**|Implement business unit specific continuity plans, coordinate business process restoration, manage departmental business communications, and support workforce business needs.|
-|**Emergency Operations Team**|Coordinate business emergency response activities, manage emergency operations center for business functions, communicate with business stakeholders, and ensure workforce safety and business operations.|
-|**Human Resources**|Manage workforce accountability and business communications, coordinate with families, support workforce welfare during business disruptions, and maintain emergency contact information.|
+|**Emergency Operations Team**|Coordinate business emergency response activities, manage emergency operations coordination for business functions, communicate with business stakeholders, and ensure workforce safety and business operations.|
+|**Human Resources**|Manage workforce accountability and business communications, support workforce welfare during business disruptions, and maintain emergency contact information.|
 |**Legal and Compliance**|Ensure regulatory compliance during business emergencies, manage legal implications of business incidents, coordinate with business authorities, and handle business insurance claims.|
-|**Communications Team**|Manage external business communications, coordinate with media and customers, handle business crisis communications, and maintain business stakeholder relationships.|
-|**Facilities Management**|Maintain business facility emergency systems, coordinate with emergency services for business facilities, assess business facility damage, and manage alternate business facility arrangements.|
+|**Communications Team**|Manage external business communications, coordinate with customers, handle business crisis communications, and maintain business stakeholder relationships.|
 |**All Workforce Members**|Follow business emergency procedures, participate in business continuity training and drills, report business safety concerns, and support business recovery efforts as assigned.|

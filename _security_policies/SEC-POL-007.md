@@ -23,7 +23,7 @@ A formal AI governance structure shall be established to oversee the evaluation,
 ##### 3.1.1 AI Governance Committee
 
 - **Committee Structure:**
-    - AI Governance Committee comprising representatives from Security, Privacy, Legal, Clinical, IT, and Business units
+    - AI Governance Committee comprising representatives from Security, Privacy, Legal, IT, and Business units
     - Designated AI Ethics Officer responsible for ethical AI oversight and compliance
     - Regular committee meetings (monthly) to review AI initiatives and address emerging issues
     - Clear escalation procedures for AI-related risks and ethical concerns
@@ -92,7 +92,7 @@ AI systems shall be developed and deployed in accordance with ethical principles
 ##### 3.3.1 Ethical AI Principles
 
 - **Fairness and Non-Discrimination:**
-    - Regular testing for bias in AI systems affecting hiring, promotion, or patient care decisions
+    - Regular testing for bias in AI systems affecting hiring, promotion, or document processing decisions
     - Diverse training data and validation datasets to minimize algorithmic bias
     - Monitoring of AI system outcomes for disparate impact on protected groups
     - Remediation procedures for identified bias or discriminatory outcomes
@@ -200,20 +200,13 @@ Specific guidelines shall govern the appropriate use of AI technologies by workf
     - Research and information gathering for business purposes
 
 - **Prohibited AI Use Cases:**
-    - Clinical diagnosis or treatment recommendations without appropriate oversight
     - Automated decision-making for hiring, firing, or promotion without human review
     - Processing of ePHI through unauthorized AI systems
     - Generation of misleading, false, or deceptive content
     - Circumvention of security controls or policy violations
+    - Modification of customer document content without authorization and audit trail
 
 ##### 3.6.2 Role-Specific Guidelines
-
-- **Healthcare and Clinical Staff:**
-    - AI clinical decision support tools must be FDA-approved or validated through appropriate processes
-    - Human clinician review required for all AI-generated clinical recommendations
-    - Patient consent required for AI system involvement in care delivery
-    - Documentation of AI system use in patient medical records
-    - Compliance with medical ethics and professional standards
 
 - **Software Development Teams:**
     - Code review required for all AI-generated code before production deployment
@@ -245,7 +238,6 @@ Comprehensive training programs shall ensure workforce members understand AI pol
 - **Specialized Training:**
     - Advanced training for AI governance committee members
     - Technical training for AI system developers and administrators
-    - Clinical training for healthcare staff using AI decision support tools
     - Legal and compliance training for AI oversight roles
     - Incident response training for AI-related security events
 

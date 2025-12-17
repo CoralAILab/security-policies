@@ -136,7 +136,6 @@ A designated Incident Response Team (IRT) shall be established with clearly defi
 
 Additional team members may be activated based on incident type and severity:
 - Human Resources representative for insider threat incidents shall be engaged as needed.
-- Facilities manager for physical security incidents shall be involved when required.
 - Third-party forensics and investigation specialists shall be engaged for complex incidents.
 - Public relations and crisis communication experts shall be involved for high-visibility incidents.
 - External legal counsel and regulatory specialists shall be engaged as circumstances require.
