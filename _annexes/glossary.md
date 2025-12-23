@@ -24,6 +24,8 @@ How to use:
 - Cross-Domain Correlation: The process of analyzing and linking related events across authentication, network, and data access logging domains.
 - Data Lifecycle Management: Managing data from creation through retention, archiving, and secure destruction.
 - Data Loss Prevention (DLP): Technology and processes that detect and prevent unauthorized transmission or use of sensitive data.
+- De-identification: The process of removing specified identifiers from ePHI such that the remaining information cannot reasonably identify an individual, as defined by HIPAA (45 CFR § 164.514). See SEC-POL-014 for requirements.
+- De-identified Data: Information that has been processed to remove identifiers in accordance with the HIPAA Safe Harbor method and is no longer considered ePHI or PHI under HIPAA.
 - Electronic Protected Health Information (ePHI): Individually identifiable health information that is created, stored, transmitted, or maintained electronically.
 - Environmental Controls: Systems and procedures designed to protect against environmental hazards such as fire, flood, temperature extremes, and power failures.
 - Event Integration: The technical capability to combine and analyze security events from multiple specialized logging domains.
@@ -40,6 +42,7 @@ How to use:
 - Remote Wipe: Administrative action that remotely deletes data from a device.
 - Risk Assessment: The process of identifying vulnerabilities and threats to information assets and determining the risk posed by those threats.
 - Role-Based Access Control (RBAC): A method of restricting access based on user roles aligned to job functions.
+- Safe Harbor Method: A de-identification standard specified in HIPAA (45 CFR § 164.514(b)(2)) that requires removal of 18 specified identifiers and no actual knowledge that remaining information could identify an individual.
 - Security Incident: Any event that could result in unauthorized access, disclosure, modification, or destruction of information assets.
 - Security Information and Event Management (SIEM): Technology providing real-time analysis and correlation of security alerts and events from multiple sources.
 - Session Correlation: Linking related authentication and access events across multiple systems using session identifiers.
