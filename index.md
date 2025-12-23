@@ -99,6 +99,7 @@ permalink: /
 * [Data Access and Compliance Audit Logging Policy (SEC-POL-011)](./security_policies/SEC-POL-011)
 * [AI Development and Deployment Security Policy (SEC-POL-012)](./security_policies/SEC-POL-012)
 * [AI Ethics and Compliance Policy (SEC-POL-013)](./security_policies/SEC-POL-013)
+* [ePHI De-identification Policy (SEC-POL-014)](./security_policies/SEC-POL-014)
 
 #### Procedures
 
