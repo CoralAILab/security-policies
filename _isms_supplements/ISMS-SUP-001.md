@@ -11,6 +11,9 @@ These procedures shall be conducted and documented every month to ensure continu
 | **Procedure (Code)**                                                 | **Primary Owner**        | **Description**                                                                                                                    | **HITRUST Control** |
 | -------------------------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | **Security Monitoring Review Procedure** (SEC-PROC-010)              | Security Team            | Monthly review of security monitoring alerts, SIEM events, and anomaly detection reports to identify patterns and emerging threats. | 09.ab               |
+| **Vulnerability Management Review Procedure** (SEC-PROC-015)         | Security Team            | Monthly review of vulnerability scanning results, remediation progress, and SLA compliance to verify the continuous vulnerability management process is effective. | 10.m                |
+| **SAST Results Review Procedure** (ENG-PROC-001-A)                   | Security Team            | Monthly review of static application security testing (SAST) findings from CI/CD pipelines, including false positive triaging and remediation tracking. | 10.m                |
+| **Backup Verification Review Procedure** (OP-PROC-009)               | IT Department            | Monthly verification that backup jobs completed successfully, restore testing samples are valid, and backup integrity is maintained. | 09.l                |
 
 #### **Quarterly Procedures**
 
@@ -20,6 +23,8 @@ These procedures shall be conducted and documented every three months to ensure 
 | -------------------------------------------------------------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | **Privileged Infrastructure Access Review Procedure** (ENG-PROC-006) | Security Team            | Outlines the steps for conducting and documenting the required quarterly reviews of all user accounts with privileged access.      | 01.c, 01.e          |
 | **Incident Trend Analysis Procedure** (SEC-PROC-011)                 | Security Team            | Quarterly review of incident patterns, lessons learned aggregation, and security trend analysis to improve incident response.      | 11.d                |
+| **DAST Results Review Procedure** (ENG-PROC-001-B)                   | Security Team            | Quarterly review of dynamic application security testing (DAST) findings from deployment pipelines, including remediation status and pre-production gate enforcement. | 10.m                |
+| **Configuration Baseline Review Procedure** (ENG-PROC-008)           | Security Team            | Quarterly review of system configurations against security baselines to detect drift and ensure hardening standards are maintained. | 06.h                |
 
 #### **Semi-Annual Procedures**
 
@@ -41,7 +46,7 @@ These procedures shall be performed at least once per year to satisfy major comp
 | **Incident Response Plan (IRP)** ([RES-PROC-001])                  | Security Team               | Provides actionable steps for responding to incidents, including conducting annual training and simulation exercises.                        | 11.c                |
 | **Business Impact Analysis (BIA) Procedure** ([RES-PROC-004])      | Business Continuity Manager | Defines the methodology for conducting the annual Business Impact Analysis to identify critical functions and establish recovery objectives. | 12.b                |
 | **BCDR Testing and Exercise Procedure** ([RES-PROC-007])           | Business Continuity Manager | Details the requirements for planning and executing the annual disaster recovery tests and business continuity exercises.                    | 12.e                |
-| **Application Security Testing Procedure** (ENG-PROC-001)          | Security Team               | Details the process for conducting security testing, including annual penetration tests for applications handling sensitive data.            | 10.m                |
+| **Penetration Testing Procedure** (ENG-PROC-001-C)                 | Security Team               | Annual penetration testing by qualified security professionals for applications handling sensitive data. SAST/DAST reviews are conducted monthly/quarterly per ENG-PROC-001-A and ENG-PROC-001-B. | 10.m                |
 | **Facility Access Management Procedure** (SEC-PROC-006)            | Facilities/Security Team    | Describes the process for managing physical facility access, including conducting and documenting annual access reviews.                     | 08.b                |
 | **User Access Rights Review Procedure** (AC-PROC-005)              | IT Department               | Annual review of ALL user access rights across systems, verifying least privilege and appropriate access levels.                             | 01.e                |
 | **Security Awareness Training Verification** (HR-PROC-001)         | Human Resources             | Annual verification that all workforce members have completed required security and privacy awareness training.                              | 02.e                |
