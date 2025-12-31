@@ -15,6 +15,7 @@ These procedures shall be conducted and documented every month to ensure continu
 | **SAST Results Review Procedure** (ENG-PROC-001-A)                   | Security Team            | Monthly review of static application security testing (SAST) findings from CI/CD pipelines, including false positive triaging and remediation tracking. | 10.m                |
 | **Backup Verification Review Procedure** (OP-PROC-009)               | IT Department            | Monthly verification that backup jobs completed successfully, restore testing samples are valid, and backup integrity is maintained. | 09.l                |
 | **Automated Privileged Access Validation** (ENG-PROC-006-A)          | Security Team            | Monthly automated validation of privileged access via monitoring tools, verifying that privileged account usage aligns with approved access and detecting anomalies. | 01.c, 01.e          |
+| **Endpoint Compliance Report Procedure** (SEC-PROC-016)              | Security Team            | Monthly FleetDM compliance report showing device encryption, firewall, baseline, and AV compliance rates with threshold-based remediation ticketing. | 10.a, 09.ab         |
 
 #### **Quarterly Procedures**
 
@@ -27,6 +28,7 @@ These procedures shall be conducted and documented every three months to ensure 
 | **DAST Results Review Procedure** (ENG-PROC-001-B)                   | Security Team            | Quarterly review of dynamic application security testing (DAST) findings from deployment pipelines, including remediation status and pre-production gate enforcement. | 10.m                |
 | **Configuration Baseline Review Procedure** (ENG-PROC-008)           | Security Team            | Quarterly review of system configurations against security baselines to detect drift and ensure hardening standards are maintained. | 06.h                |
 | **BCDR Tabletop Exercise** (RES-PROC-007-A)                          | Business Continuity Manager | Quarterly tabletop exercise to walk through disaster recovery and business continuity scenarios, testing decision-making and communication procedures. | 12.e                |
+| **Device Baseline Audit Procedure** (SEC-PROC-017)                   | Security Team            | Quarterly comprehensive audit of all FleetDM policies with HITRUST evidence generation, baseline drift detection, and device-level remediation ticketing. | 06.h, 10.a          |
 
 #### **Semi-Annual Procedures**
 
