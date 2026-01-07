@@ -28,7 +28,7 @@ Data retention shall be implemented through automated technical controls rather 
 - **Backup Retention**: Cloud backup services configured with automatic retention policy enforcement
 
 - **Business and Operational Data:**
-- **Application Logs**: Automated log rotation and retention (typically **[Duration, e.g., 1-2 years]**)
+- **Application Logs**: Automated log rotation and retention (typically **2 years**)
 - **System Logs**: Cloud logging services with configurable retention periods
 - **Development Data**: Automated cleanup of staging and development environments
 - **Analytics Data**: Automated data lifecycle management within analytics platforms
@@ -43,12 +43,12 @@ Instead of complex retention schedules, use simplified categorization with autom
 - **Monitoring**: Automated alerts for retention policy violations or failures shall be implemented to ensure compliance.
 
 - **Business Data (Operational Records):**
-- **Retention Period**: **[Duration, e.g., 3-7 years]** based on business requirements shall be established and enforced for operational records.
+- **Retention Period**: **7 years** based on business requirements shall be established and enforced for operational records.
 - **Implementation**: Application-level retention with cloud storage lifecycle policies shall be configured to manage business data lifecycle.
 - **Monitoring**: Dashboard reporting on data lifecycle status shall be maintained to provide visibility into retention compliance.
 
 - **System Data (Logs, Monitoring, Backups):**
-- **Retention Period**: **[Duration, e.g., 1-2 years]** for operational needs shall be configured for system data.
+- **Retention Period**: **2 years** for operational needs shall be configured for system data.
 - **Implementation**: Cloud service automatic retention and deletion shall be configured to manage system data lifecycle.
 - **Monitoring**: Service-level monitoring and alerting shall be implemented to track system data retention compliance.
 

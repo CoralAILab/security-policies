@@ -46,7 +46,7 @@ Vendors shall be classified into three practical risk tiers with appropriate ass
 - **Business Associate Agreement**: Required for any ePHI access
 - **Financial Stability**: Basic financial stability verification
 - **Security Contact**: Established security contact and incident notification procedures
-- **Insurance**: Cyber liability insurance verification ($**[Amount, e.g., 5-10 million]** minimum)
+- **Insurance**: Cyber liability insurance verification ($**5 million** minimum)
 
 - **Tier 2 - Business Risk Assessment:**
 - **Basic Security Review**: Security questionnaire or self-attestation shall be conducted to assess basic security posture.
@@ -85,7 +85,7 @@ Focus contract negotiations on essential security requirements rather than compr
 
 For Tier 1 vendors with ePHI access:
 - **Standard BAA Template**: Use standardized BAA template covering HIPAA requirements
-- **Incident Notification**: **[Timeframe, e.g., 24-hour]** incident notification requirement
+- **Incident Notification**: **24-hour** incident notification requirement
 - **Data Return**: Secure data return or destruction upon contract termination
 - **Audit Rights**: Right to review security practices and compliance evidence
 - **Subcontractor Requirements**: Flow-down of BAA requirements to subcontractors
@@ -94,7 +94,7 @@ For Tier 1 vendors with ePHI access:
 
 For Tier 2 vendors:
 - **Data Protection**: Basic data protection and confidentiality requirements
-- **Incident Notification**: **[Timeframe, e.g., 72-hour]** security incident notification
+- **Incident Notification**: **72-hour** security incident notification
 - **Insurance**: Professional liability and cyber insurance requirements
 - **Data Location**: Geographic data storage and processing restrictions
 - **Termination**: Data return requirements upon contract termination
@@ -141,7 +141,7 @@ Implement practical access controls that balance security with operational effic
 ##### 3.5.2 Access Monitoring and Review
 
 - **Automated Logging**: Log vendor access activities through existing security monitoring tools
-- **Regular Access Review**: **[Frequency, e.g., Quarterly]** review of active vendor accounts and permissions
+- **Regular Access Review**: **Quarterly** review of active vendor accounts and permissions
 - **Prompt Deprovisioning**: Immediate access revocation upon contract termination or project completion
 - **Exception Reporting**: Automated alerts for unusual vendor access patterns or failed authentication attempts
 

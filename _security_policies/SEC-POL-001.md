@@ -139,9 +139,9 @@ The information security program shall be subject to continuous monitoring and i
 
 - **ASM One Inc.** shall implement comprehensive threat intelligence and security information sharing processes as follows:
 
-- **Healthcare-Specific Threat Intelligence:** Subscriptions to healthcare-specific threat intelligence feeds including **[Threat Feeds, e.g., HHS HCCIC, FBI IC3, MS-ISAC]** shall be maintained to receive current threat information relevant to the healthcare sector.
+- **Healthcare-Specific Threat Intelligence:** Subscriptions to healthcare-specific threat intelligence feeds including **HHS HC3, FBI InfraGard, and MS-ISAC** shall be maintained to receive current threat information relevant to the healthcare sector.
 
-- **Automated Threat Indicator Ingestion:** Automated ingestion of threat indicators including IoCs, TTPs, and vulnerability information shall be configured into **[Threat Intelligence Platform]** for systematic processing and analysis.
+- **Automated Threat Indicator Ingestion:** Automated ingestion of threat indicators including IoCs, TTPs, and vulnerability information shall be configured into **Microsoft Sentinel** for systematic processing and analysis.
 
 - **Internal Security Data Collection:** Internal security data from SIEM, IDS/IPS, endpoint detection, and vulnerability scanners shall be collected and analyzed for threat pattern identification.
 
@@ -153,7 +153,7 @@ The information security program shall be subject to continuous monitoring and i
 
 - **Intelligence Briefings:** Weekly threat intelligence briefings shall be generated for security teams including emerging threats, attack trends, and recommended countermeasures.
 
-- **External Information Sharing:** Sanitized threat indicators shall be shared with **[Sharing Partners, e.g., HC3, industry peers]** through secure information sharing platforms, subject to approval processes to protect sensitive organizational information.
+- **External Information Sharing:** Sanitized threat indicators shall be shared with **HC3 and industry peer organizations** through secure information sharing platforms, subject to approval processes to protect sensitive organizational information.
 
 - **Incident Response Intelligence:** Threat intelligence shall be leveraged during incident response to understand attacker tactics, techniques, and procedures (TTPs), with analysis of security incidents to extract new threat intelligence.
 
@@ -161,7 +161,7 @@ The information security program shall be subject to continuous monitoring and i
 
 - **Security Control Updates:** Security controls and monitoring rules shall be updated based on threat intelligence findings and emerging attack techniques.
 
-- **Documentation and Retention:** Threat intelligence records and sharing documentation shall be maintained for minimum **[Retention Period, e.g., 2 years]** for audit compliance purposes.
+- **Documentation and Retention:** Threat intelligence records and sharing documentation shall be maintained for minimum **6 years** for audit compliance purposes.
 
 ### 4. Standards Compliance
 

@@ -39,10 +39,10 @@ A comprehensive technical security framework shall be implemented to protect mob
 ##### 3.1.2 Approved Mobile Device Technical Specifications
 
 **Supported Device Types and Security Requirements:**
-- **iOS Devices**: iOS **[Version, e.g., 15.0]** or later with hardware-based Secure Enclave for encryption key management shall be required
-- **Android Devices**: Android **[Version, e.g., 11.0]** or later with security patch level within **[Timeframe, e.g., 90 days]** and hardware-backed keystore shall be required
-- **Windows Devices**: Windows **[Version, e.g., 10]** Pro or Enterprise with TPM 2.0 and BitLocker encryption capability shall be required
-- **macOS Devices**: macOS **[Version, e.g., 12.0]** or later with T2 Security Chip or Apple Silicon secure boot shall be required
+- **iOS Devices**: iOS **16.0** or later with hardware-based Secure Enclave for encryption key management shall be required
+- **Android Devices**: Android **13.0** or later with security patch level within **90 days** and hardware-backed keystore shall be required
+- **Windows Devices**: Windows **11** Pro or Enterprise with TPM 2.0 and BitLocker encryption capability shall be required
+- **macOS Devices**: macOS **14.0** or later with T2 Security Chip or Apple Silicon secure boot shall be required
 
 **Prohibited Devices:**
 - Devices with modified firmware (jailbroken/rooted devices) shall be automatically blocked from accessing organizational resources
@@ -74,7 +74,7 @@ Comprehensive mobile device management systems shall provide centralized technic
 **Device Security Configuration Management:**
 - Minimum passcode complexity enforcement: minimum 6-digit passcode with alphanumeric requirements for Level 2+ devices shall be implemented
 - Automatic screen lock after **5 minutes** of inactivity with immediate lock capability shall be configured
-- Maximum failed unlock attempts configuration: **[Number, e.g., 10]** attempts before device wipe for Level 3 devices shall be enforced
+- Maximum failed unlock attempts configuration: **10** attempts before device wipe for Level 3 devices shall be enforced
 - Automatic device encryption enforcement with hardware-backed key storage where available shall be implemented
 - Bluetooth and Wi-Fi security restrictions including approved protocol versions and certificate validation shall be configured
 
@@ -298,7 +298,7 @@ Specialized incident response procedures shall address mobile device security ev
 
 ##### 3.9.1 Lost or Stolen Device Procedures
 
-- All lost or stolen devices shall be reported to the IT Security Team immediately, and in no case later than **[Number, e.g., 1]** hour after discovery
+- All lost or stolen devices shall be reported to the IT Security Team immediately, and in no case later than **1** hour after discovery
 - Remote location and tracking attempts shall be initiated immediately upon notification of device loss
 - Remote lock and wipe procedures shall be executed according to established incident response protocols
 - Access credential revocation and reset shall be performed immediately to prevent unauthorized access

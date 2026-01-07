@@ -45,17 +45,17 @@ This policy applies to all **ASM One Inc.** workforce members, contractors, and 
 
 - **Annual Penetration Testing Plan:** The Information Security Officer shall develop an annual penetration testing plan identifying scope, methodology, timeline, and resource requirements for comprehensive security assessment.
 
-- **Third-Party Testing Providers:** Qualified third-party penetration testing vendors with **[Required Certifications, e.g., CISSP, CEH, OSCP]** and healthcare industry experience shall be engaged for testing activities.
+- **Third-Party Testing Providers:** Qualified third-party penetration testing vendors with **OSCP, CEH, or CISA** certifications and healthcare industry experience shall be engaged for testing activities.
 
 - **Testing Methodology:** Penetration testing shall include:
   - Pre-testing reconnaissance shall be conducted to identify external-facing systems, network ranges, and application attack surfaces.
-  - Automated vulnerability scanning using **[Scanning Tools, e.g., Nessus, Qualys, OpenVAS]** shall be performed across all in-scope systems.
+  - Automated vulnerability scanning using **Nuclei, Trivy, and Azure Defender** shall be performed across all in-scope systems.
   - Network penetration testing shall be conducted including external perimeter testing, internal network lateral movement, and wireless network security assessment.
-  - Web application security testing using **[Testing Methodology, e.g., OWASP Testing Guide]** shall be performed for all applications handling sensitive data.
+  - Web application security testing using **OWASP Testing Guide v4.2** shall be performed for all applications handling sensitive data.
   - Social engineering assessment shall be conducted including phishing simulation, physical security testing, and employee security awareness validation.
   - Cloud infrastructure security testing shall be performed including IAM controls, storage security, network configurations, and container security.
 
-- **Vulnerability Documentation:** All identified vulnerabilities shall be documented with risk ratings using **[Risk Rating System, e.g., CVSS v3.1]** and exploitation evidence.
+- **Vulnerability Documentation:** All identified vulnerabilities shall be documented with risk ratings using **CVSS v3.1** and exploitation evidence.
 
 - **Remediation Requirements:** Critical and high-risk vulnerabilities shall be remediated within **30 days** of testing completion, medium-risk vulnerabilities within **90 days**, and low-risk vulnerabilities within **180 days**.
 
