@@ -34,7 +34,7 @@ When a workforce member changes roles or responsibilities within the company, th
 
 ##### 3.2.3 Access Deprovisioning
 
-Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked according to risk-based timelines. **Critical/High-Risk Terminations** (involuntary terminations, security incidents, executive departures): All logical and physical access shall be revoked within **[Number, e.g., 2]** hours of notification. **Standard Terminations** (voluntary resignations, contract completions): All access shall be revoked within **[Number, e.g., 24]** hours from the official termination time. **Low-Risk Extended Transitions** (retirements, internal transfers): Access revocation shall be coordinated over **[Number, e.g., 72]** hours to ensure smooth knowledge transfer while maintaining security controls.
+Upon termination of employment or contract, all access to company systems, applications, and physical facilities shall be revoked according to risk-based timelines. **Critical/High-Risk Terminations** (involuntary terminations, security incidents, executive departures): All logical and physical access shall be revoked within **2** hours of notification. **Standard Terminations** (voluntary resignations, contract completions): All access shall be revoked within **24** hours from the official termination time. **Low-Risk Extended Transitions** (retirements, internal transfers): Access revocation shall be coordinated over **72** hours to ensure smooth knowledge transfer while maintaining security controls.
     
 
 #### 3.3 Automated Access Reviews and Monitoring

@@ -75,8 +75,8 @@ Specific security controls shall be implemented based on information classificat
 
 ##### 3.3.4 Restricted Information
 - Access shall be granted only to specifically authorized individuals with documented business justification.
-- Restricted information shall be encrypted at rest using **[Encryption Standard, e.g., AES-256]** or equivalent.
-- Restricted information shall be encrypted in transit using **[Protocol, e.g., TLS 1.3]** or equivalent.
+- Restricted information shall be encrypted at rest using **AES-256-GCM** or equivalent.
+- Restricted information shall be encrypted in transit using **TLS 1.2 or higher** or equivalent.
 - Restricted information shall be stored only on systems specifically approved for Restricted data.
 - Systems containing restricted information shall be protected by multi-factor authentication and privileged access controls.
 - All access to restricted information shall be logged and monitored for unauthorized activity.
@@ -166,7 +166,7 @@ Comprehensive security controls shall be implemented for portable media and digi
 
 ##### 3.11.1 Media Classification and Inventory
 
-- Media inventory entries shall be created in **[Asset Management System]** with unique identifiers, content classification, encryption status, and assigned custodians
+- Media inventory entries shall be created in **Azure Resource Manager with tagging** with unique identifiers, content classification, encryption status, and assigned custodians
 - All media shall be appropriately labeled indicating classification level (Public, Internal, Confidential, Restricted) and handling requirements
 - Media classification shall follow the same framework as other information assets with the highest classification determining overall media handling requirements
 - Physical inventory verification shall be conducted monthly comparing actual media location with inventory system records
@@ -174,7 +174,7 @@ Comprehensive security controls shall be implemented for portable media and digi
 
 ##### 3.11.2 Media Encryption and Protection
 
-- All media containing Confidential or Restricted data shall be encrypted using **[Approved Encryption Standards, e.g., AES-256]** with organization-managed keys
+- All media containing Confidential or Restricted data shall be encrypted using **AES-256** with organization-managed keys
 - Encryption implementation shall be verified and data accessibility tested before initial use or distribution
 - Media storage shall be in appropriate secure locations based on classification: locked cabinet (Internal), safe (Confidential), or vault (Restricted)
 - Tamper-evident packaging with chain of custody documentation shall be used for media transportation
@@ -191,7 +191,7 @@ Comprehensive security controls shall be implemented for portable media and digi
 
 - End-of-life media shall use certified destruction services with certificate of destruction for all Confidential and Restricted media
 - Media containing ePHI shall ensure destruction methods meet HIPAA requirements with detailed destruction certificates obtained
-- Destruction certificates and inventory records shall be maintained for minimum **[Retention Period, e.g., 7 years]** for audit and regulatory compliance
+- Destruction certificates and inventory records shall be maintained for minimum **7 years** for audit and regulatory compliance
 - Disposal personnel shall be vetted and bonded for handling sensitive media destruction
 - Physical destruction methods shall render data unrecoverable using industry-recognized standards
 
