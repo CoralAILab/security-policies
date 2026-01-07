@@ -6,15 +6,15 @@ nav_order: 12
 
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive security requirements for the development, deployment, and operation of Artificial Intelligence (AI) and Machine Learning (ML) technologies at **[Company Name]**. This policy ensures that AI systems are developed with appropriate security controls, deployed through secure processes, and operated with robust security measures to protect the confidentiality, integrity, and availability of company information and electronic Protected Health Information (ePHI). This policy focuses specifically on technical security requirements for AI development lifecycles, deployment security, and operational security while coordinating with AI ethics and compliance requirements defined in SEC-POL-013.
+The objective of this policy is to establish comprehensive security requirements for the development, deployment, and operation of Artificial Intelligence (AI) and Machine Learning (ML) technologies at **ASM One Inc.**. This policy ensures that AI systems are developed with appropriate security controls, deployed through secure processes, and operated with robust security measures to protect the confidentiality, integrity, and availability of company information and electronic Protected Health Information (ePHI). This policy focuses specifically on technical security requirements for AI development lifecycles, deployment security, and operational security while coordinating with AI ethics and compliance requirements defined in SEC-POL-013.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties involved in the development, deployment, configuration, or technical management of AI and ML technologies. It encompasses all AI development activities including model creation, training, validation, deployment, and maintenance. This policy covers both internally developed AI systems and the technical integration of third-party AI services, regardless of deployment model (cloud-based, on-premises, or hybrid), and applies to all technical aspects of AI system security including infrastructure, data pipelines, model protection, and operational monitoring.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties involved in the development, deployment, configuration, or technical management of AI and ML technologies. It encompasses all AI development activities including model creation, training, validation, deployment, and maintenance. This policy covers both internally developed AI systems and the technical integration of third-party AI services, regardless of deployment model (cloud-based, on-premises, or hybrid), and applies to all technical aspects of AI system security including infrastructure, data pipelines, model protection, and operational monitoring.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive security controls throughout the AI development and deployment lifecycle to ensure AI systems are developed, deployed, and operated securely while protecting sensitive information and maintaining system integrity as coordinated with AI ethics and compliance requirements in SEC-POL-013.
+- **ASM One Inc.** shall implement comprehensive security controls throughout the AI development and deployment lifecycle to ensure AI systems are developed, deployed, and operated securely while protecting sensitive information and maintaining system integrity as coordinated with AI ethics and compliance requirements in SEC-POL-013.
 
 #### 3.1 AI Development Security Framework
 

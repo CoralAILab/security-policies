@@ -5,15 +5,15 @@ nav_order: 1
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive framework for integrating security controls throughout the Software Development Lifecycle (SDLC) at **[Company Name]**. This policy ensures that security considerations are systematically incorporated into every phase of software development, from initial requirements gathering through deployment and maintenance. By implementing a structured secure development lifecycle framework and comprehensive security training programs, **[Company Name]** ensures that all software applications and systems are designed, developed, and maintained with appropriate security safeguards to protect electronic Protected Health Information (ePHI) and maintain compliance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish a comprehensive framework for integrating security controls throughout the Software Development Lifecycle (SDLC) at **ASM One Inc.**. This policy ensures that security considerations are systematically incorporated into every phase of software development, from initial requirements gathering through deployment and maintenance. By implementing a structured secure development lifecycle framework and comprehensive security training programs, **ASM One Inc.** ensures that all software applications and systems are designed, developed, and maintained with appropriate security safeguards to protect electronic Protected Health Information (ePHI) and maintain compliance with HIPAA, HITECH, and SOC 2 requirements.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members involved in software development activities, including developers, architects, testers, DevOps engineers, product managers, project managers, and security engineers. It encompasses all software development projects including new applications, system modifications, third-party integrations, mobile applications, web applications, APIs, and infrastructure-as-code. This policy covers all development methodologies (Agile, DevOps, Waterfall), deployment models (on-premises, cloud, hybrid), and development environments (development, testing, staging, production). It applies to both internally developed software and customizations of third-party applications, establishing the overarching framework that is implemented through the Secure Coding and Testing Policy (ENG-POL-005) and Third-Party Component Management Policy (ENG-POL-006).
+This policy applies to all **ASM One Inc.** workforce members involved in software development activities, including developers, architects, testers, DevOps engineers, product managers, project managers, and security engineers. It encompasses all software development projects including new applications, system modifications, third-party integrations, mobile applications, web applications, APIs, and infrastructure-as-code. This policy covers all development methodologies (Agile, DevOps, Waterfall), deployment models (on-premises, cloud, hybrid), and development environments (development, testing, staging, production). It applies to both internally developed software and customizations of third-party applications, establishing the overarching framework that is implemented through the Secure Coding and Testing Policy (ENG-POL-005) and Third-Party Component Management Policy (ENG-POL-006).
 
 ### 3. Policy
 
-**[Company Name]** shall implement a comprehensive secure development lifecycle framework that systematically integrates security controls into every phase of software development, supported by comprehensive security training programs to ensure all development team members possess the knowledge and skills necessary to build secure applications.
+**ASM One Inc.** shall implement a comprehensive secure development lifecycle framework that systematically integrates security controls into every phase of software development, supported by comprehensive security training programs to ensure all development team members possess the knowledge and skills necessary to build secure applications.
 
 #### 3.1 Secure Development Lifecycle Framework
 
@@ -80,7 +80,7 @@ All development team members shall receive comprehensive security training appro
 ##### 3.7.1 Developer Security Training
 
 - **Initial Training Requirements:**
-    - Secure coding training for all new developers shall be completed within **[Timeframe, e.g., 30 days]** of hire.
+    - Secure coding training for all new developers shall be completed within **30 days** of hire.
     - Language and framework-specific security training shall be provided to ensure developers understand secure practices for their technology stack.
     - OWASP Top 10 awareness and prevention techniques shall be included in all developer security training programs.
     - Threat modeling and security design principles shall be taught to enable developers to identify and mitigate security risks.

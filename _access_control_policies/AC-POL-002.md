@@ -5,21 +5,21 @@ nav_order: 2
 ---
 ### 1. Objective
 
-The objective of this policy is to establish the rules governing the acceptable use of **[Company Name]**'s network, internet access, and communication systems. This policy is designed to protect the integrity and availability of our information resources, safeguard sensitive data such as electronic Protected Health Information (ePHI), and ensure a secure and productive work environment.
+The objective of this policy is to establish the rules governing the acceptable use of **ASM One Inc.**'s network, internet access, and communication systems. This policy is designed to protect the integrity and availability of our information resources, safeguard sensitive data such as electronic Protected Health Information (ePHI), and ensure a secure and productive work environment.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members (including employees, contractors, and temporary staff) and any other individuals granted access to the company's network and information systems. It covers the use of all network resources, including but not limited to internet access, email, instant messaging, cloud services, and any device connected to the corporate network.
+This policy applies to all **ASM One Inc.** workforce members (including employees, contractors, and temporary staff) and any other individuals granted access to the company's network and information systems. It covers the use of all network resources, including but not limited to internet access, email, instant messaging, cloud services, and any device connected to the corporate network.
 
 ### 3. Policy
 
-All use of **[Company Name]**'s network resources must be conducted in a legal, ethical, and secure manner that is consistent with the company's professional standards.
+All use of **ASM One Inc.**'s network resources must be conducted in a legal, ethical, and secure manner that is consistent with the company's professional standards.
 
 #### 3.1 General Use and Ownership
 
 ##### 3.1.1 Company Property Rights
 
-All network infrastructure, systems, and the data created or transmitted over them shall be considered the property of **[Company Name]**. Workforce members shall acknowledge that their use of these resources is subject to company policies and applicable laws.
+All network infrastructure, systems, and the data created or transmitted over them shall be considered the property of **ASM One Inc.**. Workforce members shall acknowledge that their use of these resources is subject to company policies and applicable laws.
 
 ##### 3.1.2 Privacy Expectations
 
@@ -53,7 +53,7 @@ The transmission of ePHI or other data classified as Confidential over the netwo
 
 #### 3.3 Prohibited Activities
 
-The following activities are strictly prohibited when using **[Company Name]**'s network resources:
+The following activities are strictly prohibited when using **ASM One Inc.**'s network resources:
 
 ##### 3.3.1 Prohibited Illegal Activities
 
@@ -77,7 +77,7 @@ Using unapproved peer-to-peer file-sharing services or transferring company data
 
 ##### 3.3.6 Inappropriate Content Access
 
-Accessing, downloading, or distributing content that is obscene, defamatory, harassing, or otherwise violates **[Company Name]**'s professional conduct policies shall be strictly prohibited.
+Accessing, downloading, or distributing content that is obscene, defamatory, harassing, or otherwise violates **ASM One Inc.**'s professional conduct policies shall be strictly prohibited.
     
 
 Compliance with these prohibitions is enforced through a combination of administrative oversight and technical controls, including but not limited to, web content filtering, intrusion detection systems, and data loss prevention (DLP) tools.

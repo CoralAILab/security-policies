@@ -6,11 +6,11 @@ nav_order: 5
 
 #### **1. Objective**
 
-The objective of this policy is to establish clear guidelines for the installation and use of all third-party software, applications, and browser extensions on company-managed endpoints. This policy is designed to protect [Company Name] from security risks, including malware, data leakage, and privacy breaches, while enabling workforce members to use legitimate tools that enhance productivity.
+The objective of this policy is to establish clear guidelines for the installation and use of all third-party software, applications, and browser extensions on company-managed endpoints. This policy is designed to protect ASM One Inc. from security risks, including malware, data leakage, and privacy breaches, while enabling workforce members to use legitimate tools that enhance productivity.
 
 #### **2. Scope**
 
-This policy applies to all [Company Name] workforce members (including employees, contractors, and temporary staff) and any third party using a company-managed endpoint. It covers all software, including desktop applications, command-line tools, and browser extensions, installed on any company-owned or managed device, such as laptops and workstations.
+This policy applies to all ASM One Inc. workforce members (including employees, contractors, and temporary staff) and any third party using a company-managed endpoint. It covers all software, including desktop applications, command-line tools, and browser extensions, installed on any company-owned or managed device, such as laptops and workstations.
 
 #### **3. Policy**
 
@@ -18,7 +18,7 @@ All software installed on company endpoints shall be properly licensed, have a v
 
 #### 3.1 Software Governance Model
 
-[Company Name] employs a hybrid governance model to manage software risk effectively:
+ASM One Inc. employs a hybrid governance model to manage software risk effectively:
 
 - **Allowlist (for High-Risk Software):** Software and browser extensions that require elevated privileges or access to sensitive data (e.g., ePHI, Confidential data) must be explicitly approved and listed on the company's official **Software Allowlist**. Any software not on this list is implicitly denied.
     
@@ -74,7 +74,7 @@ The IT Department will use endpoint management tools to enforce this policy and 
 
 - **Automated Audits:** Regular, automated scans of all company endpoints will be conducted to inventory installed software and check for compliance with this policy.
     
-- **Remote Removal:** [Company Name] reserves the right to remotely remove any unauthorized, prohibited, or non-compliant software from a company-managed endpoint without prior notice to the user.
+- **Remote Removal:** ASM One Inc. reserves the right to remotely remove any unauthorized, prohibited, or non-compliant software from a company-managed endpoint without prior notice to the user.
     
 - **Policy Violations:** The discovery of prohibited or unauthorized software may result in disciplinary action, in accordance with the `Security Policy Sanction Procedure (OP-PROC-008)`.
     

@@ -5,11 +5,11 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish the requirements for securely accessing **[Company Name]**'s information assets from locations outside of corporate offices. Because we handle sensitive health information, these security measures are not just company rules—they are essential for protecting patients, complying with laws like HIPAA, and maintaining the trust of our clients. This policy is designed to enable workforce productivity while ensuring the confidentiality, integrity, and availability of all data, including electronic Protected Health Information (ePHI), regardless of where work is performed.
+The objective of this policy is to establish the requirements for securely accessing **ASM One Inc.**'s information assets from locations outside of corporate offices. Because we handle sensitive health information, these security measures are not just company rules—they are essential for protecting patients, complying with laws like HIPAA, and maintaining the trust of our clients. This policy is designed to enable workforce productivity while ensuring the confidentiality, integrity, and availability of all data, including electronic Protected Health Information (ePHI), regardless of where work is performed.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members (including employees, contractors, and temporary staff) who work remotely, either on a full-time, part-time, or occasional basis. It covers any and all locations outside of a designated corporate office, including home offices, co-working spaces, and travel locations. This policy governs the use of both company-provided and personally-owned equipment used to access company resources.
+This policy applies to all **ASM One Inc.** workforce members (including employees, contractors, and temporary staff) who work remotely, either on a full-time, part-time, or occasional basis. It covers any and all locations outside of a designated corporate office, including home offices, co-working spaces, and travel locations. This policy governs the use of both company-provided and personally-owned equipment used to access company resources.
 
 ### 3. Policy
 
@@ -82,7 +82,7 @@ Any security incident, including but not limited to loss or theft of devices, su
 
 #### 3.4 Use of Personal Equipment (BYOD)
 
-The use of personally-owned devices to access company resources is a privilege and is contingent upon adherence to specific security requirements. As a condition of using a personal device for work, workforce members shall provide formal consent to the installation of required security software and acknowledge **[Company Name]**'s right to remotely wipe corporate data (a process that targets only company information and applications, not personal data like photos, texts, or contacts). All personal devices shall be formally registered with the IT Department and may be required to have company-managed security software installed before access is granted, as further defined in the Bring Your Own Device (BYOD) Policy.
+The use of personally-owned devices to access company resources is a privilege and is contingent upon adherence to specific security requirements. As a condition of using a personal device for work, workforce members shall provide formal consent to the installation of required security software and acknowledge **ASM One Inc.**'s right to remotely wipe corporate data (a process that targets only company information and applications, not personal data like photos, texts, or contacts). All personal devices shall be formally registered with the IT Department and may be required to have company-managed security software installed before access is granted, as further defined in the Bring Your Own Device (BYOD) Policy.
 
 ### 4. Standards Compliance
 
@@ -103,11 +103,11 @@ This policy is designed to comply with and support the following industry standa
 
 ### 5. Definitions
 
-- **Remote Work:** Any work performed for **[Company Name]** from a location that is not a designated corporate office.
+- **Remote Work:** Any work performed for **ASM One Inc.** from a location that is not a designated corporate office.
     
 - **Virtual Private Network (VPN):** A secure, encrypted connection over a public network to a private network.
     
-- **Company-Provided Equipment:** Laptops, mobile devices, and any other hardware owned by **[Company Name]** and issued to a workforce member.
+- **Company-Provided Equipment:** Laptops, mobile devices, and any other hardware owned by **ASM One Inc.** and issued to a workforce member.
     
 - **Mobile Device Management (MDM):** Software used by the IT Department to manage and secure mobile devices like phones and tablets.
     

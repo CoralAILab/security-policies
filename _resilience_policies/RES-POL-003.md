@@ -5,15 +5,15 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive requirements for the detection, monitoring, and initial reporting of security events and incidents within **[Company Name]**'s information systems and infrastructure. This policy ensures that security events are identified promptly through both automated and manual detection methods, properly reported through established channels, and appropriately triaged to determine if incident response procedures should be activated. By implementing robust detection and monitoring capabilities, **[Company Name]** can minimize the time between incident occurrence and detection, reducing potential impact on operations and electronic Protected Health Information (ePHI) while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish comprehensive requirements for the detection, monitoring, and initial reporting of security events and incidents within **ASM One Inc.**'s information systems and infrastructure. This policy ensures that security events are identified promptly through both automated and manual detection methods, properly reported through established channels, and appropriately triaged to determine if incident response procedures should be activated. By implementing robust detection and monitoring capabilities, **ASM One Inc.** can minimize the time between incident occurrence and detection, reducing potential impact on operations and electronic Protected Health Information (ePHI) while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates who may detect, observe, or report potential security events or incidents. It encompasses all information systems, applications, networks, devices, and infrastructure components owned, operated, or managed by **[Company Name]**, including cloud services, mobile devices, and third-party systems that process company data. This policy covers all detection methods including automated security tools, manual observation, and workforce reporting, as well as the initial triage and reporting procedures that determine whether formal incident response should be activated.
+This policy applies to all **ASM One Inc.** workforce members, contractors, third parties, and business associates who may detect, observe, or report potential security events or incidents. It encompasses all information systems, applications, networks, devices, and infrastructure components owned, operated, or managed by **ASM One Inc.**, including cloud services, mobile devices, and third-party systems that process company data. This policy covers all detection methods including automated security tools, manual observation, and workforce reporting, as well as the initial triage and reporting procedures that determine whether formal incident response should be activated.
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive security event detection and monitoring capabilities across all information systems and infrastructure components to ensure early identification of potential security incidents and enable rapid activation of incident response procedures as defined in the Incident Response Framework & Team Management Policy (RES-POL-001).
+**ASM One Inc.** shall implement comprehensive security event detection and monitoring capabilities across all information systems and infrastructure components to ensure early identification of potential security incidents and enable rapid activation of incident response procedures as defined in the Incident Response Framework & Team Management Policy (RES-POL-001).
 
 #### 3.1 Security Event Detection Framework
 
@@ -117,9 +117,8 @@ Comprehensive reporting procedures shall ensure that all potential security even
 ##### 3.3.1 Incident Reporting Channels
 
 - **Primary Reporting Methods:**
-    - 24/7 security hotline: **[Phone Number]** for immediate verbal reporting
-    - Email reporting: **[Email Address]** for detailed written reports
-    - Online incident reporting portal: **[URL]** for structured reporting and tracking
+    - 24/7 security hotline: **+1 (650) 512-7480** for immediate verbal reporting
+    - Email reporting: **security@trycoral.ai** for detailed written reports
     - In-person reporting to Security Officer, IT Management, or designated incident response personnel
 
 - **Reporting Channel Requirements:**
@@ -132,8 +131,8 @@ Comprehensive reporting procedures shall ensure that all potential security even
 ##### 3.3.2 Reporting Requirements and Procedures
 
 - **Mandatory Reporting Timelines:**
-    - All suspected security incidents shall be reported within **[Timeframe, e.g., 2 hours]** of discovery
-    - Initial reports may be verbal with written follow-up mandated within **[Timeframe, e.g., 24 hours]**
+    - All suspected security incidents shall be reported within **2 hours** of discovery
+    - Initial reports may be verbal with written follow-up mandated within **24 hours**
     - Critical incidents involving ePHI or system compromise require immediate reporting
     - Workforce members shall not delay reporting while gathering additional information
     - No investigation or remediation attempts shall be made prior to reporting

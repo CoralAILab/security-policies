@@ -6,15 +6,15 @@ nav_order: 1
 
 ### 1. Objective
 
-The objective of this policy is to establish practical requirements for implementing encryption and key management using cloud-native services and automated tools at **[Company Name]**. This policy ensures that sensitive information, particularly electronic Protected Health Information (ePHI), is protected through appropriate cloud-managed encryption technologies while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements in a cost-effective manner.
+The objective of this policy is to establish practical requirements for implementing encryption and key management using cloud-native services and automated tools at **ASM One Inc.**. This policy ensures that sensitive information, particularly electronic Protected Health Information (ePHI), is protected through appropriate cloud-managed encryption technologies while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements in a cost-effective manner.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties who handle, process, store, or transmit encrypted information. It encompasses all cloud-based information systems, applications, and data storage containing sensitive data. This policy covers cloud-native encryption services, automated key management, and data protection across cloud platforms including AWS, Azure, and Google Cloud Platform.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties who handle, process, store, or transmit encrypted information. It encompasses all cloud-based information systems, applications, and data storage containing sensitive data. This policy covers cloud-native encryption services, automated key management, and data protection across cloud platforms including AWS, Azure, and Google Cloud Platform.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement cloud-native encryption controls to protect the confidentiality, integrity, and authenticity of sensitive information using automated, managed services that reduce operational complexity while maintaining security and compliance.
+- **ASM One Inc.** shall implement cloud-native encryption controls to protect the confidentiality, integrity, and authenticity of sensitive information using automated, managed services that reduce operational complexity while maintaining security and compliance.
 
 #### 3.1 Cloud-Native Encryption Requirements
 
@@ -130,7 +130,7 @@ Automatic audit trail through cloud logging services (CloudTrail, Azure Monitor,
 
 - **Key Recovery and Disaster Response:**
     - Automated backup of key metadata and access policies shall be configured to secure storage with cross-region replication for disaster recovery scenarios
-    - Key recovery procedures shall be documented and tested for disaster scenarios ensuring recovery procedures can restore key access within **[Timeframe, e.g., 4 hours]** to meet business continuity requirements
+    - Key recovery procedures shall be documented and tested for disaster scenarios ensuring recovery procedures can restore key access within **4 hours** to meet business continuity requirements
     - Emergency access procedures shall be configured for key management services during outages with break-glass access controls that maintain audit trails and security controls
     - Quarterly testing of key management service failover and recovery procedures shall be conducted with documented results and procedure updates based on findings
 

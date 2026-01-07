@@ -6,15 +6,15 @@ nav_order: 2
 
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive security requirements for mobile devices used to access **[Company Name]**'s information systems and data. This policy ensures that mobile device usage maintains the confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI), while supporting workforce mobility and productivity in compliance with HIPAA, HITECH, and SOC 2 requirements. This unified policy addresses technical security controls, business usage guidelines, and Bring Your Own Device (BYOD) program requirements to provide a single source of truth for all mobile device security.
+The objective of this policy is to establish comprehensive security requirements for mobile devices used to access **ASM One Inc.**'s information systems and data. This policy ensures that mobile device usage maintains the confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI), while supporting workforce mobility and productivity in compliance with HIPAA, HITECH, and SOC 2 requirements. This unified policy addresses technical security controls, business usage guidelines, and Bring Your Own Device (BYOD) program requirements to provide a single source of truth for all mobile device security.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, including employees, contractors, temporary staff, and third parties who use mobile devices to access company information systems, email, applications, or data. It covers all mobile computing devices including smartphones, tablets, laptops, wearable devices, and any other portable computing device capable of storing, processing, or transmitting company information. This policy applies regardless of device ownership (company-owned or personal) and includes both managed and unmanaged device scenarios across all business environments and usage scenarios.
+This policy applies to all **ASM One Inc.** workforce members, including employees, contractors, temporary staff, and third parties who use mobile devices to access company information systems, email, applications, or data. It covers all mobile computing devices including smartphones, tablets, laptops, wearable devices, and any other portable computing device capable of storing, processing, or transmitting company information. This policy applies regardless of device ownership (company-owned or personal) and includes both managed and unmanaged device scenarios across all business environments and usage scenarios.
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive mobile device security controls that balance workforce mobility and productivity needs with robust technical security, data protection, privacy rights, and regulatory compliance requirements.
+**ASM One Inc.** shall implement comprehensive mobile device security controls that balance workforce mobility and productivity needs with robust technical security, data protection, privacy rights, and regulatory compliance requirements.
 
 ## Section A: Technical Security Requirements
 
@@ -73,7 +73,7 @@ Comprehensive mobile device management systems shall provide centralized technic
 
 **Device Security Configuration Management:**
 - Minimum passcode complexity enforcement: minimum 6-digit passcode with alphanumeric requirements for Level 2+ devices shall be implemented
-- Automatic screen lock after **[Duration, e.g., 5 minutes]** of inactivity with immediate lock capability shall be configured
+- Automatic screen lock after **5 minutes** of inactivity with immediate lock capability shall be configured
 - Maximum failed unlock attempts configuration: **[Number, e.g., 10]** attempts before device wipe for Level 3 devices shall be enforced
 - Automatic device encryption enforcement with hardware-backed key storage where available shall be implemented
 - Bluetooth and Wi-Fi security restrictions including approved protocol versions and certificate validation shall be configured

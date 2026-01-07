@@ -25,7 +25,6 @@ These procedures shall be performed at least once per year to satisfy major comp
 | **Business Impact Analysis (BIA) Procedure** ([RES-PROC-004])      | Business Continuity Manager | Defines the methodology for conducting the annual Business Impact Analysis to identify critical functions and establish recovery objectives. |
 | **BCDR Testing and Exercise Procedure** ([RES-PROC-007])           | Business Continuity Manager | Details the requirements for planning and executing the annual disaster recovery tests and business continuity exercises.                    |
 | **Application Security Testing Procedure** (ENG-PROC-001)          | Security Team               | Details the process for conducting security testing, including annual penetration tests for applications handling sensitive data.            |
-| **Facility Access Management Procedure** (SEC-PROC-006)              | Facilities/Security Team | Describes the process for managing physical facility access, including conducting and documenting annual access reviews.        |
 
 #### **Ad-Hoc / As-Needed / Event-Driven Procedures**
 

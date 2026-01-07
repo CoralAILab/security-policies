@@ -54,7 +54,4 @@ How to use:
 - Tailgating: Unauthorized access gained by following an authorized person through a controlled physical access point.
 - Threat Intelligence: Information about current and potential security threats used to enhance detection and response.
 - User Agent: Information about the client software, operating system, and device characteristics used for requests such as authentication.
-- Visitor Management System: Automated system for registering, tracking, and managing facility visitors.
 - SOC 2 Report: A report on controls at a service organization relevant to security, availability, processing integrity, confidentiality, or privacy.
-- Physical Security Perimeter: The physical boundary around facilities, systems, or areas requiring protection.
-- Follow-Me Printing: Secure printing requiring user authentication at the printer before documents are released.

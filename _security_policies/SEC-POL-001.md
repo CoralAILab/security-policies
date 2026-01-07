@@ -5,19 +5,19 @@ nav_order: 1
 ---
 ### 1. Objective
 
-The objective of this policy is to establish **[Company Name]**'s comprehensive Information Security Management System (ISMS) and define the overarching framework for protecting the confidentiality, integrity, and availability of all information assets. This policy serves as the foundation for all security controls and demonstrates **[Company Name]**'s commitment to safeguarding electronic Protected Health Information (ePHI), maintaining compliance with applicable regulations, and supporting business objectives through effective risk management.
+The objective of this policy is to establish **ASM One Inc.**'s comprehensive Information Security Management System (ISMS) and define the overarching framework for protecting the confidentiality, integrity, and availability of all information assets. This policy serves as the foundation for all security controls and demonstrates **ASM One Inc.**'s commitment to safeguarding electronic Protected Health Information (ePHI), maintaining compliance with applicable regulations, and supporting business objectives through effective risk management.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, including employees, contractors, temporary staff, and interns. It encompasses all information assets owned, operated, or managed by **[Company Name]**, regardless of format (electronic, physical, or verbal), location (on-premises, cloud, or remote), or lifecycle stage (creation, processing, storage, transmission, or disposal). This policy also applies to all third parties, vendors, and business associates who access, process, or store **[Company Name]** information.
+This policy applies to all **ASM One Inc.** workforce members, including employees, contractors, temporary staff, and interns. It encompasses all information assets owned, operated, or managed by **ASM One Inc.**, regardless of format (electronic, physical, or verbal), location (on-premises, cloud, or remote), or lifecycle stage (creation, processing, storage, transmission, or disposal). This policy also applies to all third parties, vendors, and business associates who access, process, or store **ASM One Inc.** information.
 
 ### 3. Policy
 
-- **[Company Name]** is committed to implementing and maintaining a comprehensive information security program that protects information assets and ensures regulatory compliance.
+- **ASM One Inc.** is committed to implementing and maintaining a comprehensive information security program that protects information assets and ensures regulatory compliance.
 
 #### 3.1 Information Security Governance
 
-- **[Company Name]** shall establish and maintain a formal information security governance structure to oversee the implementation and effectiveness of the ISMS.
+- **ASM One Inc.** shall establish and maintain a formal information security governance structure to oversee the implementation and effectiveness of the ISMS.
 
 - A designated Security Officer shall be appointed with ultimate responsibility for the information security program. The Security Officer shall report directly to executive leadership and have the authority to implement security controls across the organization.
 
@@ -29,7 +29,7 @@ This policy applies to all **[Company Name]** workforce members, including emplo
 
 #### 3.2 Risk Management Framework
 
-- **[Company Name]** shall implement a systematic approach to identifying, assessing, and managing information security risks.
+- **ASM One Inc.** shall implement a systematic approach to identifying, assessing, and managing information security risks.
 
 - A formal risk assessment shall be conducted annually and whenever significant changes occur to the business environment, technology infrastructure, or regulatory landscape.
 
@@ -67,7 +67,7 @@ Access to information systems and data shall be controlled through formal proces
 
 All workforce members shall receive comprehensive security awareness training to understand their security responsibilities and recognize potential threats.
 
-- New workforce members shall complete security awareness training within **[Number, e.g., 30]** days of hire.
+- New workforce members shall complete security awareness training within **30** days of hire.
 
 - Annual refresher training shall be provided to all workforce members, with additional specialized training for roles with elevated security responsibilities.
 
@@ -77,7 +77,7 @@ All workforce members shall receive comprehensive security awareness training to
 
 #### 3.6 Incident Management
 
-- **[Company Name]** shall maintain the capability to detect, respond to, and recover from security incidents in a timely and effective manner.
+- **ASM One Inc.** shall maintain the capability to detect, respond to, and recover from security incidents in a timely and effective manner.
 
 - A formal incident response plan shall be maintained and tested regularly through tabletop exercises and simulations.
 
@@ -101,7 +101,7 @@ Critical business functions and information systems shall be protected through c
 
 #### 3.8 Vendor and Third-Party Management
 
-Security requirements shall be established and enforced for all vendors and third parties with access to **[Company Name]** information or systems.
+Security requirements shall be established and enforced for all vendors and third parties with access to **ASM One Inc.** information or systems.
 
 - Security assessments shall be conducted before engaging vendors who will access, process, or store company information.
 
@@ -113,7 +113,7 @@ Security requirements shall be established and enforced for all vendors and thir
 
 #### 3.9 Compliance and Audit
 
-- **[Company Name]** shall maintain compliance with all applicable laws, regulations, and contractual obligations related to information security.
+- **ASM One Inc.** shall maintain compliance with all applicable laws, regulations, and contractual obligations related to information security.
 
 - Regular compliance assessments shall be conducted to verify adherence to HIPAA, SOC 2, and other applicable requirements.
 
@@ -137,7 +137,7 @@ The information security program shall be subject to continuous monitoring and i
 
 #### 3.10.1 Threat Intelligence and Security Information Sharing Implementation
 
-- **[Company Name]** shall implement comprehensive threat intelligence and security information sharing processes as follows:
+- **ASM One Inc.** shall implement comprehensive threat intelligence and security information sharing processes as follows:
 
 - **Healthcare-Specific Threat Intelligence:** Subscriptions to healthcare-specific threat intelligence feeds including **[Threat Feeds, e.g., HHS HCCIC, FBI IC3, MS-ISAC]** shall be maintained to receive current threat information relevant to the healthcare sector.
 

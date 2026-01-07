@@ -5,19 +5,19 @@ nav_order: 1
 ---
 ### 1. Objective
 
-The objective of this policy is to establish the foundational framework and team management structure for **[Company Name]**'s incident response program. This policy defines the overall incident response lifecycle, establishes incident classification criteria, creates the organizational structure for incident response team management, and ensures post-incident learning and improvement processes. By implementing a comprehensive incident response framework with clearly defined roles, responsibilities, and governance structures, **[Company Name]** ensures coordinated and effective response to security incidents while protecting electronic Protected Health Information (ePHI), maintaining regulatory compliance with HIPAA, HITECH, and SOC 2 requirements, and enabling continuous improvement of security capabilities.
+The objective of this policy is to establish the foundational framework and team management structure for **ASM One Inc.**'s incident response program. This policy defines the overall incident response lifecycle, establishes incident classification criteria, creates the organizational structure for incident response team management, and ensures post-incident learning and improvement processes. By implementing a comprehensive incident response framework with clearly defined roles, responsibilities, and governance structures, **ASM One Inc.** ensures coordinated and effective response to security incidents while protecting electronic Protected Health Information (ePHI), maintaining regulatory compliance with HIPAA, HITECH, and SOC 2 requirements, and enabling continuous improvement of security capabilities.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates involved in incident response planning, team management, or improvement activities. It encompasses the governance structure for all types of security incidents including data breaches, malware infections, unauthorized access, denial of service attacks, and physical security breaches. This policy establishes the framework that is implemented through the Security Event Detection and Monitoring Policy (RES-POL-003) and Incident Communication and Regulatory Compliance Policy (RES-POL-004), covering all information systems, applications, networks, devices, and data owned, operated, or managed by **[Company Name]**.
+This policy applies to all **ASM One Inc.** workforce members, contractors, third parties, and business associates involved in incident response planning, team management, or improvement activities. It encompasses the governance structure for all types of security incidents including data breaches, malware infections, unauthorized access, denial of service attacks, and physical security breaches. This policy establishes the framework that is implemented through the Security Event Detection and Monitoring Policy (RES-POL-003) and Incident Communication and Regulatory Compliance Policy (RES-POL-004), covering all information systems, applications, networks, devices, and data owned, operated, or managed by **ASM One Inc.**.
 
 ### 3. Policy
 
-**[Company Name]** shall maintain a comprehensive incident response framework that establishes clear governance structures, team management processes, and continuous improvement mechanisms to ensure effective coordination of all incident response activities across the organization, implemented through specialized policies for detection and monitoring (RES-POL-003) and communication and compliance (RES-POL-004).
+**ASM One Inc.** shall maintain a comprehensive incident response framework that establishes clear governance structures, team management processes, and continuous improvement mechanisms to ensure effective coordination of all incident response activities across the organization, implemented through specialized policies for detection and monitoring (RES-POL-003) and communication and compliance (RES-POL-004).
 
 #### 3.1 Incident Response Framework
 
-- **[Company Name]** shall implement a structured incident response process based on industry best practices and regulatory mandates.
+- **ASM One Inc.** shall implement a structured incident response process based on industry best practices and regulatory mandates.
 
 ##### 3.1.1 Incident Response Lifecycle
 
@@ -136,7 +136,6 @@ A designated Incident Response Team (IRT) shall be established with clearly defi
 
 Additional team members may be activated based on incident type and severity:
 - Human Resources representative for insider threat incidents shall be engaged as needed.
-- Facilities manager for physical security incidents shall be involved when required.
 - Third-party forensics and investigation specialists shall be engaged for complex incidents.
 - Public relations and crisis communication experts shall be involved for high-visibility incidents.
 - External legal counsel and regulatory specialists shall be engaged as circumstances require.
@@ -166,7 +165,7 @@ Comprehensive post-incident activities shall ensure organizational learning and 
 ##### 3.7.2 Lessons Learned and Improvement
 
 - **Post-Incident Review:**
-    - Formal review meeting within **[Timeframe, e.g., 2 weeks]** of incident closure shall be conducted.
+    - Formal review meeting within **2 weeks** of incident closure shall be conducted.
     - Analysis of response effectiveness and areas for improvement shall be performed.
     - Review of incident response plan adequacy and updates needed shall be completed.
     - Evaluation of team performance and training requirements shall be conducted.

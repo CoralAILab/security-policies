@@ -9,11 +9,11 @@ The objective of this policy is to establish practical, risk-based requirements 
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members involved in vendor selection and management. It covers external parties that access company data or systems, with streamlined procedures based on actual risk levels rather than comprehensive assessment requirements for all vendors.
+This policy applies to all **ASM One Inc.** workforce members involved in vendor selection and management. It covers external parties that access company data or systems, with streamlined procedures based on actual risk levels rather than comprehensive assessment requirements for all vendors.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement a streamlined, risk-based vendor management approach that focuses resources on high-risk vendors while maintaining regulatory compliance through practical assessment and monitoring procedures.
+- **ASM One Inc.** shall implement a streamlined, risk-based vendor management approach that focuses resources on high-risk vendors while maintaining regulatory compliance through practical assessment and monitoring procedures.
 
 #### 3.1 Simplified Vendor Risk Tiers
 
@@ -169,7 +169,7 @@ Establish practical procedures for coordinating security incidents involving ven
 
 ##### 3.7.1 Vendor Incident Notification
 
-- **Notification Procedures**: Clear procedures for vendors to report security incidents affecting **[Company Name]** data
+- **Notification Procedures**: Clear procedures for vendors to report security incidents affecting **ASM One Inc.** data
 - **Response Coordination**: Designated Security Officer as primary contact for vendor incident coordination
 - **Impact Assessment**: Rapid assessment of vendor incident impact on company operations and data
 - **Communication**: Internal communication procedures for vendor-related security incidents

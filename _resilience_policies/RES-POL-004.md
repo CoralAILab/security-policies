@@ -5,15 +5,15 @@ nav_order: 4
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive requirements for incident response procedures, communication protocols, and regulatory compliance activities during security incidents at **[Company Name]**. This policy ensures that security incidents are handled through standardized response procedures, appropriate stakeholders are notified in a timely manner, and all regulatory and legal obligations are met throughout the incident lifecycle. By implementing structured communication and compliance processes, **[Company Name]** maintains transparency with stakeholders, meets regulatory notification requirements, and preserves legal and regulatory standing while effectively managing incident response activities in coordination with the Incident Response Framework & Team Management Policy (RES-POL-001).
+The objective of this policy is to establish comprehensive requirements for incident response procedures, communication protocols, and regulatory compliance activities during security incidents at **ASM One Inc.**. This policy ensures that security incidents are handled through standardized response procedures, appropriate stakeholders are notified in a timely manner, and all regulatory and legal obligations are met throughout the incident lifecycle. By implementing structured communication and compliance processes, **ASM One Inc.** maintains transparency with stakeholders, meets regulatory notification requirements, and preserves legal and regulatory standing while effectively managing incident response activities in coordination with the Incident Response Framework & Team Management Policy (RES-POL-001).
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates involved in incident response activities, stakeholder communications, or regulatory compliance processes. It encompasses all types of security incidents including data breaches, system compromises, malware infections, and other events that require formal response procedures. This policy covers communication with internal stakeholders, external parties including customers and vendors, regulatory bodies, law enforcement, and the media, as well as all regulatory notification and compliance requirements under HIPAA, HITECH, state data breach laws, and other applicable regulations.
+This policy applies to all **ASM One Inc.** workforce members, contractors, third parties, and business associates involved in incident response activities, stakeholder communications, or regulatory compliance processes. It encompasses all types of security incidents including data breaches, system compromises, malware infections, and other events that require formal response procedures. This policy covers communication with internal stakeholders, external parties including customers and vendors, regulatory bodies, law enforcement, and the media, as well as all regulatory notification and compliance requirements under HIPAA, HITECH, state data breach laws, and other applicable regulations.
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive incident response procedures and communication protocols that ensure effective incident management, appropriate stakeholder notification, and full compliance with all regulatory and legal requirements throughout the incident response lifecycle.
+**ASM One Inc.** shall implement comprehensive incident response procedures and communication protocols that ensure effective incident management, appropriate stakeholder notification, and full compliance with all regulatory and legal requirements throughout the incident response lifecycle.
 
 #### 3.1 Incident Response Procedures
 
@@ -96,7 +96,7 @@ Incident response procedures shall ensure compliance with all applicable legal a
     - Description of what happened and when the breach occurred
     - Types of information that were involved in the breach
     - Steps individuals should take to protect themselves from potential harm
-    - What **[Company Name]** is doing to investigate, mitigate, and prevent future occurrences
+    - What **ASM One Inc.** is doing to investigate, mitigate, and prevent future occurrences
     - Contact information for individuals to ask questions or get additional information
 
 ##### 3.2.2 Additional Regulatory and Legal Requirements
@@ -199,7 +199,7 @@ Comprehensive post-incident activities shall ensure organizational learning, pro
 ##### 3.4.2 Lessons Learned and Continuous Improvement
 
 - **Post-Incident Review Process:**
-    - Formal lessons learned meeting within **[Timeframe, e.g., 2 weeks]** of incident closure
+    - Formal lessons learned meeting within **2 weeks** of incident closure
     - Analysis of response effectiveness with focus on communication and compliance activities
     - Review of incident response plan adequacy and identification of needed updates
     - Evaluation of team performance and identification of additional training requirements

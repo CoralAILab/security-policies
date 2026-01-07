@@ -5,19 +5,19 @@ nav_order: 3
 ---
 ### 1. Objective
 
-The objective of this policy is to establish a comprehensive risk management framework for identifying, assessing, treating, and monitoring information security risks across **[Company Name]**. This policy ensures that security risks are systematically managed to protect the confidentiality, integrity, and availability of information assets, particularly electronic Protected Health Information (ePHI), and to maintain compliance with regulatory requirements while supporting business objectives.
+The objective of this policy is to establish a comprehensive risk management framework for identifying, assessing, treating, and monitoring information security risks across **ASM One Inc.**. This policy ensures that security risks are systematically managed to protect the confidentiality, integrity, and availability of information assets, particularly electronic Protected Health Information (ePHI), and to maintain compliance with regulatory requirements while supporting business objectives.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties. It encompasses all information assets, systems, processes, and facilities owned, operated, or managed by **[Company Name]**, including cloud services, third-party systems, and remote work environments. This policy covers all types of information security risks, including cybersecurity threats, operational risks, compliance risks, and business continuity risks.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties. It encompasses all information assets, systems, processes, and facilities owned, operated, or managed by **ASM One Inc.**, including cloud services, third-party systems, and remote work environments. This policy covers all types of information security risks, including cybersecurity threats, operational risks, compliance risks, and business continuity risks.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement and maintain a systematic risk management process that is integrated into all business activities and decision-making processes.
+- **ASM One Inc.** shall implement and maintain a systematic risk management process that is integrated into all business activities and decision-making processes.
 
 #### 3.1 Risk Management Framework
 
-- **[Company Name]** shall establish and maintain a formal risk management framework based on industry best practices and regulatory requirements.
+- **ASM One Inc.** shall establish and maintain a formal risk management framework based on industry best practices and regulatory requirements.
 
 - The risk management process shall follow a continuous cycle of identification, assessment, treatment, monitoring, and review.
 
@@ -29,7 +29,7 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 #### 3.2 Risk Identification
 
-- **[Company Name]** shall proactively identify information security risks through multiple sources and methods.
+- **ASM One Inc.** shall proactively identify information security risks through multiple sources and methods.
 
 - Comprehensive risk assessments shall be conducted at least annually and whenever significant changes occur to systems, processes, or the business environment.
 
@@ -41,7 +41,7 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 #### 3.2.1 Penetration Testing and Vulnerability Assessment Implementation
 
-- **[Company Name]** shall implement comprehensive penetration testing and vulnerability assessment processes as follows:
+- **ASM One Inc.** shall implement comprehensive penetration testing and vulnerability assessment processes as follows:
 
 - **Annual Penetration Testing Plan:** The Information Security Officer shall develop an annual penetration testing plan identifying scope, methodology, timeline, and resource requirements for comprehensive security assessment.
 
@@ -57,13 +57,13 @@ This policy applies to all **[Company Name]** workforce members, contractors, an
 
 - **Vulnerability Documentation:** All identified vulnerabilities shall be documented with risk ratings using **[Risk Rating System, e.g., CVSS v3.1]** and exploitation evidence.
 
-- **Remediation Requirements:** Critical and high-risk vulnerabilities shall be remediated within **[Duration, e.g., 30 days]** of testing completion, medium-risk vulnerabilities within **[Duration, e.g., 90 days]**, and low-risk vulnerabilities within **[Duration, e.g., 180 days]**.
+- **Remediation Requirements:** Critical and high-risk vulnerabilities shall be remediated within **30 days** of testing completion, medium-risk vulnerabilities within **90 days**, and low-risk vulnerabilities within **180 days**.
 
 - **Validation Testing:** Validation testing shall be conducted to confirm successful remediation of all critical and high-risk vulnerabilities.
 
 - **Quarterly Vulnerability Assessments:** Automated vulnerability assessments shall be conducted quarterly with monthly scan result reviews for ongoing security validation.
 
-- **Targeted Testing:** Penetration testing shall be performed within **[Duration, e.g., 30 days]** of significant system changes, new application deployments, or security incidents.
+- **Targeted Testing:** Penetration testing shall be performed within **30 days** of significant system changes, new application deployments, or security incidents.
 
 - Risk identification shall consider internal and external threats, including but not limited to:
   - Cybersecurity threats (malware, phishing, unauthorized access) shall be identified and assessed for organizational impact.
@@ -84,7 +84,7 @@ All identified risks shall be analyzed to determine their potential impact and l
   - Operational impact (service disruption, productivity loss) shall be assessed for its effect on business operations and service delivery.
   - Reputational impact (customer trust, market confidence) shall be evaluated for its potential long-term consequences to organizational standing.
   - Regulatory impact (compliance violations, sanctions) shall be assessed for potential legal and regulatory consequences.
-  - Patient safety and privacy implications shall be evaluated for their impact on healthcare delivery and regulatory compliance.
+  - Customer data protection and privacy implications shall be evaluated for their impact on service delivery and regulatory compliance.
 
 - Likelihood assessment shall consider:
   - Threat actor capabilities and motivations shall be evaluated based on available threat intelligence and industry analysis.
@@ -96,7 +96,7 @@ All identified risks shall be analyzed to determine their potential impact and l
 
 #### 3.4 Risk Treatment
 
-- **[Company Name]** shall implement appropriate risk treatment strategies based on risk levels and business priorities.
+- **ASM One Inc.** shall implement appropriate risk treatment strategies based on risk levels and business priorities.
 
 - Risk treatment options include:
   - **Accept:** Acknowledge and monitor risks that fall within acceptable tolerance levels shall be documented with clear justification and approval.
@@ -116,7 +116,7 @@ All identified risks shall be analyzed to determine their potential impact and l
 
 #### 3.5 Risk Monitoring and Review
 
-- **[Company Name]** shall continuously monitor the risk environment and the effectiveness of risk treatments.
+- **ASM One Inc.** shall continuously monitor the risk environment and the effectiveness of risk treatments.
 
 - A formal risk register shall be maintained to track all identified risks, their assessments, treatments, and current status.
 

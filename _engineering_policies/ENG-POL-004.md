@@ -5,15 +5,15 @@ nav_order: 4
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and monitoring of **[Company Name]**'s network infrastructure and communications. This policy ensures that all network components including perimeter security, internal network segmentation, wireless networks, and network traffic monitoring are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of data in transit and electronic Protected Health Information (ePHI). This policy addresses network-level security controls, traffic monitoring, intrusion detection and prevention, and network access management while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements.
+The objective of this policy is to establish comprehensive security requirements for the design, implementation, operation, and monitoring of **ASM One Inc.**'s network infrastructure and communications. This policy ensures that all network components including perimeter security, internal network segmentation, and network traffic monitoring are configured and managed with appropriate security controls to protect the confidentiality, integrity, and availability of data in transit and electronic Protected Health Information (ePHI). This policy addresses network-level security controls, traffic monitoring, intrusion detection and prevention, and network access management while maintaining compliance with HIPAA, HITECH, and SOC 2 requirements. Note: ASM One Inc. operates as a fully cloud-native organization without physical office infrastructure; wireless network and guest network controls are not applicable.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties involved in the design, deployment, configuration, or management of network infrastructure and communications. It encompasses all network components including routers, switches, firewalls, wireless access points, network security appliances, VPN concentrators, and network monitoring systems. This policy covers all network environments (production, staging, development, testing) and connection types including wired networks, wireless networks, remote access connections, site-to-site connections, and cloud network services. It applies to both on-premises network infrastructure and cloud-based networking services including Virtual Private Clouds (VPCs), software-defined networks, and hybrid network configurations.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties involved in the design, deployment, configuration, or management of network infrastructure and communications. It encompasses all network components including routers, switches, firewalls, network security appliances, VPN concentrators, and network monitoring systems. This policy covers all network environments (production, staging, development, testing) and connection types including remote access connections, site-to-site connections, and cloud network services. It applies to cloud-based networking services including Virtual Private Clouds (VPCs) and software-defined networks.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive network security controls across all network infrastructure to ensure secure data transmission, prevent unauthorized network access, and maintain regulatory compliance through defense-in-depth network protection strategies.
+- **ASM One Inc.** shall implement comprehensive network security controls across all network infrastructure to ensure secure data transmission, prevent unauthorized network access, and maintain regulatory compliance through defense-in-depth network protection strategies.
 
 #### 3.1 Network Security Architecture
 
@@ -134,101 +134,11 @@ Comprehensive firewall management shall provide perimeter protection and network
     - Firewall logs shall be monitored continuously for security events including blocked connections, policy violations, and administrative access attempts
     - Quarterly firewall rule reviews shall identify unused or expired rules, overly permissive access, and opportunities for optimization and consolidation
 
-#### 3.5 Wireless Network Security
-
-Comprehensive wireless network security controls shall ensure secure wireless communications while protecting against unauthorized wireless access and threats.
-
-##### 3.5.1 Wireless Network Security Implementation
-
-- **Corporate Wireless Network Security:**
-    - WPA3-Enterprise authentication with 802.1X authentication for all corporate wireless networks
-    - Certificate-based authentication for corporate devices accessing wireless networks
-    - Network Access Control (NAC) integration for device compliance verification
-    - Corporate wireless network segregation from guest and public networks
-    - Wireless network monitoring and intrusion detection capabilities
-
-##### 3.5.2 Wireless Security Monitoring Implementation
-
-- **Wireless Intrusion Detection and Prevention:**
-    - Wireless intrusion detection system (WIDS) sensors shall be deployed throughout all facilities with **[Coverage Percentage, e.g., 95%]** coverage
-    - WIDS shall monitor all wireless frequencies including 2.4GHz, 5GHz, and **[Additional Frequencies, e.g., 6GHz]** for comprehensive threat detection
-    - Baseline inventory of authorized wireless access points shall be established including MAC addresses, locations, SSIDs, and security configurations
-    - Automated alerts shall be configured for detection of unauthorized access points, evil twin attacks, wireless deauthentication attacks, and rogue devices
-    - Security Operations Center shall monitor wireless security dashboard continuously with investigation of alerts within **[Duration, e.g., 15 minutes]** of detection
-
-- **Wireless Security Assessment and Validation:**
-    - Daily wireless site surveys shall be performed to identify unauthorized access points, signal interference, and coverage gaps
-    - Weekly vulnerability scans of all authorized wireless access points shall be conducted using **[Scanning Tools, e.g., Nessus, OpenVAS]**
-    - Daily review of wireless access logs shall identify suspicious connection patterns, failed authentication attempts, and data exfiltration indicators
-    - Monthly wireless penetration testing shall validate security controls and identify configuration weaknesses
-    - Quarterly review of wireless security architecture shall update detection rules based on emerging threat intelligence
-
-- **Wireless Incident Response and Remediation:**
-    - Confirmed rogue access points shall trigger immediate containment by blocking the device and investigating potential data compromise
-    - Incident Response Team shall coordinate wireless security incident response with appropriate escalation and notification procedures
-    - Wireless monitoring logs and incident documentation shall be maintained for minimum **[Retention Period, e.g., 3 years]** for audit compliance
-    - Monthly wireless device inventory updates shall remove decommissioned devices from monitoring systems and security baselines
-    - Weekly wireless security reports shall include threat detection statistics, vulnerability findings, and remediation status
-
-- **Wireless Security Performance Metrics:**
-    - Monthly wireless security metrics shall include mean time to detection (MTTD) and mean time to response (MTTR) for threats
-    - Quarterly wireless security assessments shall be reviewed by the Information Security Officer with approval for monitoring procedure changes
-    - Wireless security monitoring effectiveness shall be measured through penetration testing results and threat detection capabilities
-    - Continuous improvement of wireless security controls based on threat intelligence and industry best practices
-
-#### 3.6 Guest Network Security
-
-Guest network infrastructure shall provide secure visitor access while maintaining complete isolation from corporate networks and sensitive data.
-
-##### 3.6.1 Guest Network Isolation and Security Implementation
-
-- **Guest Network Infrastructure Requirements:**
-    - Dedicated guest network infrastructure with complete Layer 2 and Layer 3 isolation from corporate networks containing ePHI and sensitive business data
-    - Guest network VLAN configuration with no routing to corporate VLANs and dedicated internet gateway with NAT
-    - Separate physical or logical infrastructure components to prevent any potential cross-contamination with corporate resources
-    - Guest network equipment shall be managed and monitored independently from corporate network infrastructure
-    - Geographic and logical separation of guest network components from production systems
-
-- **Guest Network Access Controls:**
-    - Guest network access controls requiring **[Authentication Method, e.g., sponsored access, SMS verification]** for connection approval
-    - Time-limited guest credentials valid for **[Duration, e.g., 8 hours]** with automatic expiration and termination
-    - Visitor information collection and identity verification by reception or security staff prior to access provisioning
-    - Guest access request approval through **[Guest Management System]** with business justification and access duration specification
-    - Automated provisioning of guest credentials with specified time limits, bandwidth restrictions, and content filtering policies
-
-- **Guest Network Traffic Management:**
-    - Content filtering configuration blocking access to malicious websites, social media, streaming services, and inappropriate content
-    - Bandwidth limiting for guest users with maximum **[Bandwidth Limit, e.g., 10 Mbps per device]** and total **[Total Bandwidth, e.g., 100 Mbps]**
-    - Quality of service (QoS) policies to prevent guest traffic from impacting corporate network performance
-    - Traffic shaping and rate limiting to ensure fair usage and prevent network abuse
-    - Deep packet inspection (DPI) capabilities for enhanced security monitoring and threat detection
-
-- **Guest Network Monitoring and Logging:**
-    - Continuous monitoring of guest network traffic for malicious activity, data exfiltration attempts, and policy violations by the Security Operations Center
-    - Comprehensive logging of all guest network connections including device MAC addresses, connection times, data usage, and visited websites
-    - Daily review of guest network logs by network administrators to identify security events, policy violations, and system performance issues
-    - Real-time alerting and automated response capabilities for suspicious guest network activities
-    - Integration with SIEM systems for correlation with other security events and threat intelligence
-
-- **Guest Network Security Validation:**
-    - Investigation and response to guest network security alerts within **[Duration, e.g., 30 minutes]** including device isolation if necessary
-    - Automatic termination of guest access upon credential expiration and removal of device associations from access control systems
-    - Weekly guest network penetration testing to verify isolation effectiveness and identify potential security gaps
-    - Monthly guest network security reports including usage statistics, security events, and compliance metrics reviewed by the Information Security Officer
-    - Quarterly guest network security assessment and update of isolation controls based on risk assessment findings by the Network Security Manager
-
-- **Guest Network Compliance and Retention:**
-    - Maintenance of guest network access logs for minimum **[Retention Period, e.g., 1 year]** for security incident investigation and compliance requirements
-    - Documentation of guest network policies, procedures, and security controls for audit and compliance purposes
-    - Regular compliance assessments to ensure guest network implementation meets regulatory requirements
-    - Incident response procedures specific to guest network security events and policy violations
-    - Integration with organizational privacy and data protection requirements for guest network usage data
-
-#### 3.7 Network Access Control and Remote Access
+#### 3.5 Network Access Control and Remote Access
 
 Comprehensive network access controls shall ensure authorized access to network resources while preventing unauthorized access and maintaining security monitoring.
 
-##### 3.7.1 Network Access Control Implementation
+##### 3.5.1 Network Access Control Implementation
 
 - **Network Access Control (NAC) Systems:**
     - Automated device discovery and classification for all devices connecting to corporate networks
@@ -237,7 +147,7 @@ Comprehensive network access controls shall ensure authorized access to network 
     - Quarantine network for non-compliant devices with limited access and remediation capabilities
     - Integration with identity management systems for user-based access policies
 
-##### 3.7.2 Remote Access Security
+##### 3.5.2 Remote Access Security
 
 - **VPN and Remote Access Controls:**
     - Multi-factor authentication required for all remote access connections
@@ -246,11 +156,11 @@ Comprehensive network access controls shall ensure authorized access to network 
     - Time-limited remote access sessions with automatic disconnection
     - Device compliance verification for remote access endpoints
 
-#### 3.8 Network Performance and Capacity Management
+#### 3.6 Network Performance and Capacity Management
 
 Network performance monitoring shall ensure adequate capacity and optimal performance while maintaining security monitoring capabilities.
 
-##### 3.8.1 Network Performance Monitoring
+##### 3.6.1 Network Performance Monitoring
 
 - **Performance Monitoring Implementation:**
     - Real-time network performance monitoring including bandwidth utilization, latency, and packet loss
@@ -277,7 +187,6 @@ See [Annex: Glossary](../_annexes/glossary.md)
 |**Information Security Officer**|Oversee network security program, approve network security policies, review network security assessments, and ensure regulatory compliance.|
 |**Managed Security Service Provider (MSSP)**|Provide 24/7 network security monitoring, threat analysis, incident response capabilities, and network security expertise.|
 |**System Administrators**|Configure network security settings on systems, implement network access controls, and maintain network security compliance.|
-|**Wireless Network Administrator**|Manage wireless network infrastructure, implement wireless security controls, monitor wireless networks, and respond to wireless security incidents.|
 |**Firewall Administrators**|Configure and maintain firewall rules, monitor firewall logs, implement firewall changes, and ensure firewall compliance.|
 |**Cloud Engineers**|Implement cloud network security controls, configure VPC security, manage cloud network services, and ensure cloud network compliance.|
 |**All Engineering Staff**|Follow network security policies, implement network security controls in their areas, report network security issues, and participate in network security training.|

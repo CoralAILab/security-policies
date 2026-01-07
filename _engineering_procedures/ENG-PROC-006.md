@@ -24,9 +24,9 @@ This procedure leverages automated RBAC systems, just-in-time access controls, a
 | **2** | Security Officer | Define standard privileged access roles based on job functions and map each role to specific cloud resources and permission sets using infrastructure as code. |
 | **3** | Platform Engineer | Configure automated role assignment based on HR data and job function. Implement rules that automatically grant appropriate privileged access when employees are hired or change roles. |
 | **4** | IT Operations Team | Implement group-based access control where privileged permissions are assigned to groups rather than individual users based on organizational status. |
-| **5** | Platform Engineer | Configure cloud-native JIT access solutions to provide temporary elevated access with automatic expiration. Set default access duration to **[Duration, e.g., 4-8 hours]**. |
+| **5** | Platform Engineer | Configure cloud-native JIT access solutions to provide temporary elevated access with automatic expiration. Set default access duration to **4-8 hours**. |
 | **6** | DevOps Engineer | Implement self-service portal where engineers can request temporary privileged access with business justification and automated approval workflows. |
-| **7** | Security Officer | Configure emergency break-glass access procedures for critical system outages with automatic expiration within **[Duration, e.g., 2-4 hours]**. |
+| **7** | Security Officer | Configure emergency break-glass access procedures for critical system outages with automatic expiration within **2-4 hours**. |
 | **8** | Platform Engineer | Configure session recording and monitoring for all privileged access sessions with automated analysis of privileged activities. |
 | **9** | Security Officer | Configure cloud-native access analytics tools to continuously monitor privileged access patterns with machine learning-based anomaly detection. |
 | **10** | IT Operations Team | Configure real-time alerting for privileged access anomalies and integrate alerts with security monitoring systems. |

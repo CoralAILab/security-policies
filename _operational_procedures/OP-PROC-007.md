@@ -32,8 +32,8 @@ This procedure establishes standardized checklists for the security-related aspe
 | **Step** | **Who**                      | **What**                                                                                                                                                              |
 | -------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1**    | Manager / HR                 | Immediately notifies the IT department of the employee's departure, providing the exact time and date of termination.                                                   |
-| **2**    | IT Department                | Immediately upon notification, revokes all physical and logical access, including disabling user accounts, VPN access, and email.                                       |
-| **3**    | Departing Employee & Manager | The departing employee returns all company assets, including laptops, mobile devices, and security badges, to their manager. The manager verifies the return of all items. |
+| **2**    | IT Department                | Immediately upon notification, revokes all access, including disabling user accounts, VPN access, SSO sessions, and email.                                       |
+| **3**    | Departing Employee & Manager | The departing employee returns all company assets, including laptops and mobile devices, to their manager or ships them to the designated return address. The manager verifies the return of all items. |
 | **4**    | Manager & HR                 | Complete and sign the offboarding checklist, verifying all access has been revoked and all assets have been returned. The checklist is filed in the employee's HR record. |
 
 ### 5. Standards Compliance

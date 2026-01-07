@@ -5,15 +5,15 @@ nav_order: 5
 ---
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive technical disaster recovery requirements for **[Company Name]**'s information systems, infrastructure, and technology operations. This policy ensures that critical IT systems and data can be rapidly restored following disasters, disruptions, or system failures while maintaining the integrity and availability of electronic Protected Health Information (ePHI) and other sensitive data. By implementing robust disaster recovery capabilities including data backup, system redundancy, and technical recovery procedures, **[Company Name]** minimizes technology-related business impact, ensures rapid restoration of IT services, and maintains compliance with HIPAA, HITECH, and SOC 2 technical safeguard requirements in coordination with the Business Continuity Management Policy (RES-POL-002).
+The objective of this policy is to establish comprehensive technical disaster recovery requirements for **ASM One Inc.**'s information systems, infrastructure, and technology operations. This policy ensures that critical IT systems and data can be rapidly restored following disasters, disruptions, or system failures while maintaining the integrity and availability of electronic Protected Health Information (ePHI) and other sensitive data. By implementing robust disaster recovery capabilities including data backup, system redundancy, and technical recovery procedures, **ASM One Inc.** minimizes technology-related business impact, ensures rapid restoration of IT services, and maintains compliance with HIPAA, HITECH, and SOC 2 technical safeguard requirements in coordination with the Business Continuity Management Policy (RES-POL-002). **Note:** ASM One Inc. operates as a fully cloud-native organization and does not host its own physical infrastructure. Physical and environmental controls (power systems, generators, geographic separation) described in this policy represent requirements that must be met by cloud service providers and are validated through vendor due diligence, compliance certifications (SOC 2, ISO 27001), and Business Associate Agreements.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** IT personnel, system administrators, cloud engineers, and third-party service providers involved in the design, implementation, operation, or maintenance of disaster recovery systems and procedures. It encompasses all information systems, applications, databases, infrastructure components, and technology assets that support critical business operations including production systems, development environments, network infrastructure, cloud services, and data storage systems. This policy covers technical recovery procedures for all types of disasters including natural disasters, cyber attacks, equipment failures, data corruption, and other events that could impact the availability or integrity of technology systems and data.
+This policy applies to all **ASM One Inc.** IT personnel, system administrators, cloud engineers, and third-party service providers involved in the design, implementation, operation, or maintenance of disaster recovery systems and procedures. It encompasses all information systems, applications, databases, infrastructure components, and technology assets that support critical business operations including production systems, development environments, network infrastructure, cloud services, and data storage systems. This policy covers technical recovery procedures for all types of disasters including natural disasters, cyber attacks, equipment failures, data corruption, and other events that could impact the availability or integrity of technology systems and data.
 
 ### 3. Policy
 
-**[Company Name]** shall implement comprehensive technical disaster recovery capabilities that enable rapid restoration of IT systems and data following disasters or disruptions, ensuring minimal impact on business operations and maintaining the security and integrity of all technology assets and information.
+**ASM One Inc.** shall implement comprehensive technical disaster recovery capabilities that enable rapid restoration of IT systems and data following disasters or disruptions, ensuring minimal impact on business operations and maintaining the security and integrity of all technology assets and information.
 
 #### 3.1 Disaster Recovery Planning and Strategy
 
@@ -21,20 +21,20 @@ Comprehensive disaster recovery plans shall be developed for all critical inform
 
 ##### 3.1.1 IT Disaster Recovery Strategy
 
-- **Primary Data Center Protection:**
+- **Cloud Provider Data Center Requirements (validated through vendor compliance certifications):**
     - Redundant systems and infrastructure components with automatic failover capabilities
-    - Uninterruptible Power Supply (UPS) systems with minimum **[Duration, e.g., 30 minutes]** runtime capacity
-    - Backup generator systems with minimum **[Duration, e.g., 72 hours]** fuel supply and automatic transfer
+    - Uninterruptible Power Supply (UPS) systems with minimum **30 minutes** runtime capacity
+    - Backup generator systems with minimum **72 hours** fuel supply and automatic transfer
     - Advanced fire suppression systems and comprehensive environmental monitoring
     - Physical security controls including access management and surveillance systems
     - Network redundancy with multiple internet service providers and diverse routing paths
 
-- **Secondary Site Operations:**
-    - Geographically separated backup data center located minimum **[Distance, e.g., 100+ miles]** from primary site
+- **Cloud Provider Secondary Region Requirements (validated through vendor compliance certifications):**
+    - Geographically separated backup data center located minimum **100+ miles** from primary site
     - Real-time data replication for all critical systems and databases
-    - Standby infrastructure capable of supporting minimum **[Percentage, e.g., 80%]** of production capacity
+    - Standby infrastructure capable of supporting minimum **80%** of production capacity
     - Alternative network connectivity and communication systems with redundant paths
-    - Pre-positioned equipment and supplies for extended operations up to **[Duration, e.g., 30 days]**
+    - Pre-positioned equipment and supplies for extended operations up to **30 days**
     - Automated failover procedures for critical applications and services
 
 - **Cloud-Based Recovery Infrastructure:**
@@ -48,22 +48,22 @@ Comprehensive disaster recovery plans shall be developed for all critical inform
 ##### 3.1.2 System Classification and Recovery Requirements
 
 - **Critical Systems (Tier 1):**
-    - Recovery Time Objective (RTO): **[Duration, e.g., 4 hours]** maximum downtime
-    - Recovery Point Objective (RPO): **[Duration, e.g., 15 minutes]** maximum data loss
+    - Recovery Time Objective (RTO): **4 hours** maximum downtime
+    - Recovery Point Objective (RPO): **15 minutes** maximum data loss
     - 24/7 monitoring and immediate response capabilities
     - Real-time replication and automated failover
     - Dedicated disaster recovery infrastructure and personnel
 
 - **Important Systems (Tier 2):**
-    - Recovery Time Objective (RTO): **[Duration, e.g., 24 hours]** maximum downtime
-    - Recovery Point Objective (RPO): **[Duration, e.g., 1 hour]** maximum data loss
+    - Recovery Time Objective (RTO): **24 hours** maximum downtime
+    - Recovery Point Objective (RPO): **1 hour** maximum data loss
     - Business hours monitoring with 4-hour response time
     - Near-real-time replication and semi-automated recovery
     - Shared disaster recovery infrastructure with priority allocation
 
 - **Standard Systems (Tier 3):**
-    - Recovery Time Objective (RTO): **[Duration, e.g., 72 hours]** maximum downtime
-    - Recovery Point Objective (RPO): **[Duration, e.g., 4 hours]** maximum data loss
+    - Recovery Time Objective (RTO): **72 hours** maximum downtime
+    - Recovery Point Objective (RPO): **4 hours** maximum data loss
     - Scheduled monitoring with next business day response
     - Daily backup and manual recovery procedures
     - Standard disaster recovery infrastructure and procedures

@@ -6,11 +6,11 @@ nav_order: 4
 
 ### 1. Objective
 
-The objective of this policy is to establish comprehensive controls for managing privileged accounts and administrative access within **[Company Name]**'s information systems and infrastructure. This policy ensures that accounts with elevated privileges are subject to enhanced security controls, monitoring, and governance to protect the confidentiality, integrity, and availability of critical systems and electronic Protected Health Information (ePHI). This policy implements just-in-time access principles, enhanced authentication requirements, and comprehensive monitoring to minimize the risk associated with privileged account compromise.
+The objective of this policy is to establish comprehensive controls for managing privileged accounts and administrative access within **ASM One Inc.**'s information systems and infrastructure. This policy ensures that accounts with elevated privileges are subject to enhanced security controls, monitoring, and governance to protect the confidentiality, integrity, and availability of critical systems and electronic Protected Health Information (ePHI). This policy implements just-in-time access principles, enhanced authentication requirements, and comprehensive monitoring to minimize the risk associated with privileged account compromise.
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, and third parties who require elevated administrative privileges to perform their job functions. It encompasses all privileged accounts including system administrators, database administrators, cloud administrators, network administrators, security administrators, and service accounts with elevated privileges. This policy covers all systems and platforms including on-premises infrastructure, cloud services, applications, databases, network devices, and security tools. It applies to all environments (production, staging, development, testing) where privileged access is required.
+This policy applies to all **ASM One Inc.** workforce members, contractors, and third parties who require elevated administrative privileges to perform their job functions. It encompasses all privileged accounts including system administrators, database administrators, cloud administrators, network administrators, security administrators, and service accounts with elevated privileges. This policy covers all systems and platforms including on-premises infrastructure, cloud services, applications, databases, network devices, and security tools. It applies to all environments (production, staging, development, testing) where privileged access is required.
 
 ### 3. Policy
 
@@ -60,7 +60,7 @@ Privileged access shall be granted on a time-limited, just-in-time basis to mini
 
 ##### 3.2.1.1 Session Duration Limits
 
-**Critical Infrastructure Access** (production databases, cloud administrative consoles) shall have a maximum session duration of **[Duration, e.g., 4 hours]** with automatic termination. **Standard Administrative Access** (system administration, application management) shall have a maximum session duration of **[Duration, e.g., 8 hours]** with renewal available. **Development and Testing Access** shall have a maximum session duration of **[Duration, e.g., 24 hours]** with self-service renewal.
+**Critical Infrastructure Access** (production databases, cloud administrative consoles) shall have a maximum session duration of **4 hours** with automatic termination. **Standard Administrative Access** (system administration, application management) shall have a maximum session duration of **8 hours** with renewal available. **Development and Testing Access** shall have a maximum session duration of **24 hours** with self-service renewal.
 
 ##### 3.2.1.2 Automatic Session Termination
 
@@ -91,16 +91,16 @@ Comprehensive processes shall govern the creation, modification, and termination
 ##### 3.3.1 Privileged Account Management Implementation
 
 - **Privileged Account Provisioning and Approval:**
-  - Privileged account requests shall be submitted through **[Access Management System]** with business justification, required access level, and duration specification
+  - Privileged account requests shall be submitted through **Okta, Azure AD, or JumpCloud** with business justification, required access level, and duration specification
   - Hiring managers shall review and approve privileged account requests confirming business need and appropriate access level for role responsibilities
   - Information Security Officer shall conduct risk assessment for privileged account requests evaluating access scope, duration, and potential security impact
   - Privileged accounts shall be created with minimum necessary permissions and configured with multi-factor authentication requirements
   - All privileged accounts shall be enrolled in Privileged Access Management (PAM) system with session recording and access approval workflows
 
 - **Privileged Account Security Controls:**
-  - Account owners shall complete privileged account security training within **[Duration, e.g., 5 business days]** of account creation
-  - PAM system shall require approval for each privileged session through **[Approval Process, e.g., manager approval, security team approval]**
-  - All privileged account usage shall be monitored in real-time by the Security Operations Center with investigation of suspicious activities within **[Duration, e.g., 15 minutes]**
+  - Account owners shall complete privileged account security training within **5 business days** of account creation
+  - PAM system shall require approval for each privileged session through **manager approval and security team approval**
+  - All privileged account usage shall be monitored in real-time by the Security Operations Center with investigation of suspicious activities within **2 hours**
   - PAM system shall record all privileged sessions including keystrokes, commands, and file access for audit and investigation purposes
   - Emergency access accounts and break-glass procedures shall be implemented with enhanced monitoring and immediate notification requirements
 
@@ -113,7 +113,7 @@ Comprehensive processes shall govern the creation, modification, and termination
 
 - **Privileged Account Lifecycle Management:**
   - Quarterly comprehensive review of all privileged accounts shall be performed including access validation, usage analysis, and compliance assessment
-  - Privileged account passwords shall be rotated quarterly using **[Password Management System]** with **[Complexity Requirements, e.g., 20+ characters]**
+  - Privileged account passwords shall be rotated quarterly using **JumpCloud and Azure Key Vault** with **12 characters with a mix of character types** (where configuration is possible without outsourced services)
   - Annual privileged access risk assessment shall be conducted with updates to access controls based on threat landscape and business requirements
   - Privileged account deprovisioning shall include secure deletion of recorded sessions and access logs according to retention policies
 
@@ -197,7 +197,7 @@ Emergency access shall require approval from designated emergency responders and
 
 ##### 3.6.1.3 Post-Emergency Review
 
-All emergency access usage shall be reviewed within **[Duration, e.g., 24 hours]** to validate appropriateness and document lessons learned.
+All emergency access usage shall be reviewed within **24 hours** to validate appropriateness and document lessons learned.
 
 ##### 3.6.2 Emergency Access Monitoring
 

@@ -6,15 +6,15 @@ nav_order: 7
 
 ### 1. Objective
 
-The objective of this policy is to establish the comprehensive governance framework and coordination requirements for Artificial Intelligence (AI) and Machine Learning (ML) technologies at **[Company Name]**. This policy provides the overarching framework for AI governance and coordinates the specialized requirements defined in SEC-POL-012 (AI Development and Deployment Security Policy) and SEC-POL-013 (AI Ethics and Compliance Policy). This framework ensures that AI tools and systems are governed holistically with appropriate security, ethical, and compliance controls while enabling innovation and productivity improvements through responsible AI adoption that protects confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI).
+The objective of this policy is to establish the comprehensive governance framework and coordination requirements for Artificial Intelligence (AI) and Machine Learning (ML) technologies at **ASM One Inc.**. This policy provides the overarching framework for AI governance and coordinates the specialized requirements defined in SEC-POL-012 (AI Development and Deployment Security Policy) and SEC-POL-013 (AI Ethics and Compliance Policy). This framework ensures that AI tools and systems are governed holistically with appropriate security, ethical, and compliance controls while enabling innovation and productivity improvements through responsible AI adoption that protects confidentiality, integrity, and availability of company information, particularly electronic Protected Health Information (ePHI).
 
 ### 2. Scope
 
-This policy applies to all **[Company Name]** workforce members, contractors, third parties, and business associates who use, develop, deploy, govern, or manage AI and ML technologies on behalf of the organization. It encompasses all AI applications including generative AI tools, machine learning models, automated decision-making systems, and AI-powered business applications. This policy provides the governance framework for both internally developed AI systems and third-party AI services, regardless of deployment model, and coordinates the technical security requirements (SEC-POL-012) with ethics and compliance requirements (SEC-POL-013) across all use cases.
+This policy applies to all **ASM One Inc.** workforce members, contractors, third parties, and business associates who use, develop, deploy, govern, or manage AI and ML technologies on behalf of the organization. It encompasses all AI applications including generative AI tools, machine learning models, automated decision-making systems, and AI-powered business applications. This policy provides the governance framework for both internally developed AI systems and third-party AI services, regardless of deployment model, and coordinates the technical security requirements (SEC-POL-012) with ethics and compliance requirements (SEC-POL-013) across all use cases.
 
 ### 3. Policy
 
-- **[Company Name]** shall implement comprehensive governance and security controls for AI technologies to ensure responsible, ethical, and compliant use while protecting sensitive information and maintaining stakeholder trust.
+- **ASM One Inc.** shall implement comprehensive governance and security controls for AI technologies to ensure responsible, ethical, and compliant use while protecting sensitive information and maintaining stakeholder trust.
 
 #### 3.1 AI Governance Framework
 
@@ -23,7 +23,7 @@ A formal AI governance structure shall be established to oversee the evaluation,
 ##### 3.1.1 AI Governance Committee
 
 - **Committee Structure:**
-    - AI Governance Committee comprising representatives from Security, Privacy, Legal, Clinical, IT, and Business units
+    - AI Governance Committee comprising representatives from Security, Privacy, Legal, IT, and Business units
     - Designated AI Ethics Officer responsible for ethical AI oversight and compliance
     - Regular committee meetings (monthly) to review AI initiatives and address emerging issues
     - Clear escalation procedures for AI-related risks and ethical concerns
@@ -92,7 +92,7 @@ AI systems shall be developed and deployed in accordance with ethical principles
 ##### 3.3.1 Ethical AI Principles
 
 - **Fairness and Non-Discrimination:**
-    - Regular testing for bias in AI systems affecting hiring, promotion, or patient care decisions
+    - Regular testing for bias in AI systems affecting hiring, promotion, or document processing decisions
     - Diverse training data and validation datasets to minimize algorithmic bias
     - Monitoring of AI system outcomes for disparate impact on protected groups
     - Remediation procedures for identified bias or discriminatory outcomes
@@ -200,20 +200,13 @@ Specific guidelines shall govern the appropriate use of AI technologies by workf
     - Research and information gathering for business purposes
 
 - **Prohibited AI Use Cases:**
-    - Clinical diagnosis or treatment recommendations without appropriate oversight
     - Automated decision-making for hiring, firing, or promotion without human review
     - Processing of ePHI through unauthorized AI systems
     - Generation of misleading, false, or deceptive content
     - Circumvention of security controls or policy violations
+    - Modification of customer document content without authorization and audit trail
 
 ##### 3.6.2 Role-Specific Guidelines
-
-- **Healthcare and Clinical Staff:**
-    - AI clinical decision support tools must be FDA-approved or validated through appropriate processes
-    - Human clinician review required for all AI-generated clinical recommendations
-    - Patient consent required for AI system involvement in care delivery
-    - Documentation of AI system use in patient medical records
-    - Compliance with medical ethics and professional standards
 
 - **Software Development Teams:**
     - Code review required for all AI-generated code before production deployment
@@ -245,7 +238,6 @@ Comprehensive training programs shall ensure workforce members understand AI pol
 - **Specialized Training:**
     - Advanced training for AI governance committee members
     - Technical training for AI system developers and administrators
-    - Clinical training for healthcare staff using AI decision support tools
     - Legal and compliance training for AI oversight roles
     - Incident response training for AI-related security events
 
